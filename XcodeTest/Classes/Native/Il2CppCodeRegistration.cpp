@@ -45,12 +45,9 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SharedInternalsModuleCod
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_CoreModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AudioModuleCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_GameCenterModuleCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_CoreCodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_CommonCodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_iOSCodeGenModule;
 extern const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[14] = 
+const Il2CppCodeGenModule* g_CodeGenModules[11] = 
 {
 	(&g_mscorlibCodeGenModule),
 	(&g_System_ConfigurationCodeGenModule),
@@ -62,30 +59,27 @@ const Il2CppCodeGenModule* g_CodeGenModules[14] =
 	(&g_UnityEngine_CoreModuleCodeGenModule),
 	(&g_UnityEngine_AudioModuleCodeGenModule),
 	(&g_UnityEngine_GameCenterModuleCodeGenModule),
-	(&g_GoogleMobileAds_CoreCodeGenModule),
 	(&g_UnityEngineCodeGenModule),
-	(&g_GoogleMobileAds_CommonCodeGenModule),
-	(&g_GoogleMobileAds_iOSCodeGenModule),
 };
 extern const Il2CppCodeRegistration g_CodeRegistration;
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	38,
+	1,
 	g_ReversePInvokeWrapperPointers,
-	2681,
+	2619,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	1451,
+	1401,
 	g_Il2CppInvokerPointers,
-	2219,
+	2034,
 	g_AttributeGenerators,
-	184,
+	181,
 	g_UnresolvedVirtualMethodPointers,
-	164,
+	127,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	14,
+	11,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

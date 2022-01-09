@@ -25168,13 +25168,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeTypeHandle_IsPrimitive_mBA29ADD06
 	using namespace il2cpp::icalls;
 	return  ((RuntimeTypeHandle_IsPrimitive_mBA29ADD06A595A2843936453B85D8F033C7E3AA6_ftn)mscorlib::System::RuntimeTypeHandle::IsPrimitive) (___type0);
 }
-// System.Boolean System.RuntimeTypeHandle::HasReferences(System.RuntimeType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeTypeHandle_HasReferences_m71822B61531288291A39FCF9B42B8076164939A3 (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * ___type0, const RuntimeMethod* method)
-{
-	typedef bool (*RuntimeTypeHandle_HasReferences_m71822B61531288291A39FCF9B42B8076164939A3_ftn) (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *);
-	using namespace il2cpp::icalls;
-	return  ((RuntimeTypeHandle_HasReferences_m71822B61531288291A39FCF9B42B8076164939A3_ftn)mscorlib::System::RuntimeTypeHandle::HasReferences) (___type0);
-}
 // System.Boolean System.RuntimeTypeHandle::IsComObject(System.RuntimeType,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeTypeHandle_IsComObject_m6BEC1E54C1ECA6622CB12AD31CA804665198A39A (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * ___type0, bool ___isGenericCOM1, const RuntimeMethod* method)
 {

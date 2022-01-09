@@ -306,8 +306,6 @@ struct Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA;
 struct Enumerator_t638F7B8050EF8C37413868F2AF7EA5E1D36123CC;
 // UnityEngine.U2D.SpriteAtlas
 struct SpriteAtlas_t3CCE7E93E25959957EF61B2A875FEF42DAD8537A;
-// UnityEngine.UnityAPICompatibilityVersionAttribute
-struct UnityAPICompatibilityVersionAttribute_tDC26EEE2EDF33E26A15AD9E28EC3225DF09738C8;
 // UnityEngine.UnityException
 struct UnityException_t513F7D97037DB40AE78D7C3AAA2F9E011D050C28;
 // UnityEngine.UnityLogWriter
@@ -318,8 +316,6 @@ struct UnitySynchronizationContext_t29A85681F976537109A84D2316E781568619F55F;
 struct WorkRequestU5BU5D_tB89678B9C27973604A434C63C8BD307990C8EBF0;
 // UnityEngine.YieldInstruction
 struct YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44;
-// UnityEngineInternal.TypeInferenceRuleAttribute
-struct TypeInferenceRuleAttribute_tEB3BA6FDE6D6817FD33E2620200007EB9730214B;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t148D4FE58B48D51DD45913A7B6EAA61E30D4B285_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1_il2cpp_TypeInfo_var;
@@ -355,7 +351,6 @@ IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TextWriter_t92451D929322093838C41489883D5B2D7ABAF3F0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TextureFormat_t7C6B5101554065C47682E592D1E26079D4EC2DCE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Texture_t387FE83BB848001FD06B14707AEA6D5A0F6A95F4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TypeInferenceRules_tFA03D20477226A95FE644665C3C08A6B6281C333_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnhandledExceptionEventHandler_tB0DFF05ABF7A3A234C87D4F7A71F98E9AB2D91DE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityException_t513F7D97037DB40AE78D7C3AAA2F9E011D050C28_il2cpp_TypeInfo_var;
@@ -468,7 +463,6 @@ IL2CPP_EXTERN_C const uint32_t Texture_set_height_m601E103C6E803353701370B161F99
 IL2CPP_EXTERN_C const uint32_t Texture_set_width_m9E42C8B8ED703644B85F54D8DCFB51BF954F56DA_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Transform_GetEnumerator_mE98B6C5F644AE362EC1D58C10506327D6A5878FC_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Transform_get_forward_m0BE1E88B86049ADA39391C3ACED2314A624BC67F_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t TypeInferenceRuleAttribute__ctor_m389751AED6740F401AC8DFACD5914C13AB24D8A6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UnhandledExceptionHandler_HandleUnhandledException_m09FC7ACFE0E555A5815A790856FBF5B0CA50819E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UnhandledExceptionHandler_PrintException_m4CBE36F17C3F2B72205DB96B6D1377E4B3D11C77_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t UnhandledExceptionHandler_RegisterUECatcher_mE45C6A0301C35F6193F5774B7683683EF78D21DA_MetadataUsageId;
@@ -3121,36 +3115,6 @@ public:
 };
 
 
-// UnityEngine.UnityAPICompatibilityVersionAttribute
-struct UnityAPICompatibilityVersionAttribute_tDC26EEE2EDF33E26A15AD9E28EC3225DF09738C8  : public Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74
-{
-public:
-	// System.String UnityEngine.UnityAPICompatibilityVersionAttribute::_version
-	String_t* ____version_0;
-	// System.String[] UnityEngine.UnityAPICompatibilityVersionAttribute::_configurationAssembliesHashes
-	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* ____configurationAssembliesHashes_1;
-
-public:
-	inline static int32_t get_offset_of__version_0() { return static_cast<int32_t>(offsetof(UnityAPICompatibilityVersionAttribute_tDC26EEE2EDF33E26A15AD9E28EC3225DF09738C8, ____version_0)); }
-	inline String_t* get__version_0() const { return ____version_0; }
-	inline String_t** get_address_of__version_0() { return &____version_0; }
-	inline void set__version_0(String_t* value)
-	{
-		____version_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____version_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__configurationAssembliesHashes_1() { return static_cast<int32_t>(offsetof(UnityAPICompatibilityVersionAttribute_tDC26EEE2EDF33E26A15AD9E28EC3225DF09738C8, ____configurationAssembliesHashes_1)); }
-	inline StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* get__configurationAssembliesHashes_1() const { return ____configurationAssembliesHashes_1; }
-	inline StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E** get_address_of__configurationAssembliesHashes_1() { return &____configurationAssembliesHashes_1; }
-	inline void set__configurationAssembliesHashes_1(StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* value)
-	{
-		____configurationAssembliesHashes_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____configurationAssembliesHashes_1), (void*)value);
-	}
-};
-
-
 // UnityEngine.UnitySynchronizationContext
 struct UnitySynchronizationContext_t29A85681F976537109A84D2316E781568619F55F  : public SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7
 {
@@ -3539,25 +3503,6 @@ struct WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_marshaled_com : 
 {
 	float ___m_Seconds_0;
 };
-
-// UnityEngineInternal.TypeInferenceRuleAttribute
-struct TypeInferenceRuleAttribute_tEB3BA6FDE6D6817FD33E2620200007EB9730214B  : public Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74
-{
-public:
-	// System.String UnityEngineInternal.TypeInferenceRuleAttribute::_rule
-	String_t* ____rule_0;
-
-public:
-	inline static int32_t get_offset_of__rule_0() { return static_cast<int32_t>(offsetof(TypeInferenceRuleAttribute_tEB3BA6FDE6D6817FD33E2620200007EB9730214B, ____rule_0)); }
-	inline String_t* get__rule_0() const { return ____rule_0; }
-	inline String_t** get_address_of__rule_0() { return &____rule_0; }
-	inline void set__rule_0(String_t* value)
-	{
-		____rule_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____rule_0), (void*)value);
-	}
-};
-
 
 // System.AppDomain
 struct AppDomain_t1B59572328F60585904DF52A59FE47CF5B5FFFF8  : public MarshalByRefObject_tC4577953D0A44D0AB8597CFA868E01C858B1C9AF
@@ -4890,24 +4835,6 @@ public:
 };
 
 
-// UnityEngine.RuntimePlatform
-struct RuntimePlatform_tD5F5737C1BBBCBB115EB104DF2B7876387E80132 
-{
-public:
-	// System.Int32 UnityEngine.RuntimePlatform::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(RuntimePlatform_tD5F5737C1BBBCBB115EB104DF2B7876387E80132, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
-	}
-};
-
-
 // UnityEngine.SceneManagement.LoadSceneMode
 struct LoadSceneMode_t75F0B96794398942671B8315D2A9AC25C40A22D5 
 {
@@ -4917,24 +4844,6 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(LoadSceneMode_t75F0B96794398942671B8315D2A9AC25C40A22D5, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
-	}
-};
-
-
-// UnityEngine.ScreenOrientation
-struct ScreenOrientation_t4AB8E2E02033B0EAEA0260B05B1D88DA8058BB51 
-{
-public:
-	// System.Int32 UnityEngine.ScreenOrientation::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(ScreenOrientation_t4AB8E2E02033B0EAEA0260B05B1D88DA8058BB51, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -5191,24 +5100,6 @@ public:
 	inline void set_IsFlushToZeroEnabled_2(bool value)
 	{
 		___IsFlushToZeroEnabled_2 = value;
-	}
-};
-
-
-// UnityEngineInternal.TypeInferenceRules
-struct TypeInferenceRules_tFA03D20477226A95FE644665C3C08A6B6281C333 
-{
-public:
-	// System.Int32 UnityEngineInternal.TypeInferenceRules::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(TypeInferenceRules_tFA03D20477226A95FE644665C3C08A6B6281C333, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
 	}
 };
 
@@ -6624,8 +6515,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_LastIndexOf_m76C37E3915E802044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_mC9FEFEECD786FDE2648567E114C71A4A468A65FE (DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, int32_t ___hour3, int32_t ___minute4, int32_t ___second5, int32_t ___kind6, const RuntimeMethod* method);
 // System.Int64 System.DateTime::get_Ticks()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DateTime_get_Ticks_mBCB529E43D065E498EAF08971D2EB49D5CB59D60 (DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132 * __this, const RuntimeMethod* method);
-// System.Void UnityEngineInternal.TypeInferenceRuleAttribute::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeInferenceRuleAttribute__ctor_m34920F979AA071F4973CEEEF6F91B5B6A53E5765 (TypeInferenceRuleAttribute_tEB3BA6FDE6D6817FD33E2620200007EB9730214B * __this, String_t* ___rule0, const RuntimeMethod* method);
 // System.Void System.ThrowHelper::ThrowArgumentOutOfRangeException()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowHelper_ThrowArgumentOutOfRangeException_mBA2AF20A35144E0C43CD721A22EAC9FCA15D6550 (const RuntimeMethod* method);
 #ifdef __clang__
@@ -6807,14 +6696,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeInitializeOnLoadMethodAttribute_s
 		return;
 	}
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -7047,14 +6928,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager__cctor_m36C7C4EECB3F22A383F
 		return;
 	}
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -10026,26 +9899,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnhandledExceptionHandler_iOSNativeUnhan
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.UnityAPICompatibilityVersionAttribute::.ctor(System.String,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAPICompatibilityVersionAttribute__ctor_mBD2030C18DFB3131E101B84F340AAC1582890C25 (UnityAPICompatibilityVersionAttribute_tDC26EEE2EDF33E26A15AD9E28EC3225DF09738C8 * __this, String_t* ___version0, StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* ___configurationAssembliesHashes1, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m45CAD4B01265CC84CC5A84F62EE2DBE85DE89EC0(__this, /*hidden argument*/NULL);
-		String_t* L_0 = ___version0;
-		__this->set__version_0(L_0);
-		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_1 = ___configurationAssembliesHashes1;
-		__this->set__configurationAssembliesHashes_1(L_1);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void UnityEngine.UnityException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityException__ctor_m68C827240B217197615D8DA06FD3A443127D81DE (UnityException_t513F7D97037DB40AE78D7C3AAA2F9E011D050C28 * __this, const RuntimeMethod* method)
 {
@@ -11982,66 +11835,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MathfInternal__cctor_m885D4921B8E928763E
 		return;
 	}
 }
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void UnityEngineInternal.TypeInferenceRuleAttribute::.ctor(UnityEngineInternal.TypeInferenceRules)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeInferenceRuleAttribute__ctor_m389751AED6740F401AC8DFACD5914C13AB24D8A6 (TypeInferenceRuleAttribute_tEB3BA6FDE6D6817FD33E2620200007EB9730214B * __this, int32_t ___rule0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (TypeInferenceRuleAttribute__ctor_m389751AED6740F401AC8DFACD5914C13AB24D8A6_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		RuntimeObject * L_0 = Box(TypeInferenceRules_tFA03D20477226A95FE644665C3C08A6B6281C333_il2cpp_TypeInfo_var, (&___rule0));
-		NullCheck(L_0);
-		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_0);
-		___rule0 = *(int32_t*)UnBox(L_0);
-		TypeInferenceRuleAttribute__ctor_m34920F979AA071F4973CEEEF6F91B5B6A53E5765(__this, L_1, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngineInternal.TypeInferenceRuleAttribute::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeInferenceRuleAttribute__ctor_m34920F979AA071F4973CEEEF6F91B5B6A53E5765 (TypeInferenceRuleAttribute_tEB3BA6FDE6D6817FD33E2620200007EB9730214B * __this, String_t* ___rule0, const RuntimeMethod* method)
-{
-	{
-		Attribute__ctor_m45CAD4B01265CC84CC5A84F62EE2DBE85DE89EC0(__this, /*hidden argument*/NULL);
-		String_t* L_0 = ___rule0;
-		__this->set__rule_0(L_0);
-		return;
-	}
-}
-// System.String UnityEngineInternal.TypeInferenceRuleAttribute::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TypeInferenceRuleAttribute_ToString_m49343B52ED0F3E75B3E56E37CF523F63E5A746F6 (TypeInferenceRuleAttribute_tEB3BA6FDE6D6817FD33E2620200007EB9730214B * __this, const RuntimeMethod* method)
-{
-	String_t* V_0 = NULL;
-	{
-		String_t* L_0 = __this->get__rule_0();
-		V_0 = L_0;
-		goto IL_000a;
-	}
-
-IL_000a:
-	{
-		String_t* L_1 = V_0;
-		return L_1;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
