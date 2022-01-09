@@ -184,13 +184,16 @@ extern "C" void UnityCoreMotionStart()
     if (initMotionManager)
         sMotionManager = [[CMMotionManager alloc] init];
 
-    if (gEnableGyroscope && sMotionManager.gyroAvailable)
+    // iOS might get confused if we repeatedly enable gyroscope/motions
+    // so we take into account the current state
+
+    if (gEnableGyroscope && !sMotionManager.gyroActive && sMotionManager.gyroAvailable)
     {
         [sMotionManager startGyroUpdates];
         [sMotionManager setGyroUpdateInterval: sUpdateInterval];
     }
 
-    if (gEnableGyroscope && sMotionManager.deviceMotionAvailable)
+    if (gEnableGyroscope && !sMotionManager.deviceMotionActive && sMotionManager.deviceMotionAvailable)
     {
         [sMotionManager startDeviceMotionUpdates];
         [sMotionManager setDeviceMotionUpdateInterval: sUpdateInterval];
@@ -397,7 +400,7 @@ extern "C" void UnityInitJoysticks()
         if (bundle)
         {
             [bundle load];
-            gGameControllerClass = [bundle classNamed: @"GCController"];
+            gGameControllerClass = NSClassFromString(@"GCController");
 
             //Apply settings that could have been set by user scripts before controller initialization
         #if PLATFORM_TVOS
@@ -475,6 +478,7 @@ static void ReportJoystickXYZWAxes(int idx, int xaxis, int yaxis, int zaxis, int
     UnitySetJoystickPosition(idx + 1, waxis, xyzw.w);
 }
 
+#if PLATFORM_TVOS
 static void ReportJoystickMicro(int idx, GCMicroGamepad* gamepad)
 {
     GCControllerDirectionPad* dpad = [gamepad dpad];
@@ -489,6 +493,28 @@ static void ReportJoystickMicro(int idx, GCMicroGamepad* gamepad)
 
     ReportJoystickButton(idx, BTN_A, [gamepad buttonA]);
     ReportJoystickButton(idx, BTN_X, [gamepad buttonX]);
+}
+
+#endif
+
+static void ReportJoystickBasic(int idx, GCGamepad* gamepad)
+{
+    GCControllerDirectionPad* dpad = [gamepad dpad];
+
+    UnitySetJoystickPosition(idx + 1, 0, GetAxisValue([dpad xAxis]));
+    UnitySetJoystickPosition(idx + 1, 1, -GetAxisValue([dpad yAxis]));
+    ReportJoystickButton(idx, BTN_DPAD_UP, [dpad up]);
+    ReportJoystickButton(idx, BTN_DPAD_RIGHT, [dpad right]);
+    ReportJoystickButton(idx, BTN_DPAD_DOWN, [dpad down]);
+    ReportJoystickButton(idx, BTN_DPAD_LEFT, [dpad left]);
+
+    ReportJoystickButton(idx, BTN_A, [gamepad buttonA]);
+    ReportJoystickButton(idx, BTN_B, [gamepad buttonB]);
+    ReportJoystickButton(idx, BTN_Y, [gamepad buttonY]);
+    ReportJoystickButton(idx, BTN_X, [gamepad buttonX]);
+
+    ReportJoystickButton(idx, BTN_L1, [gamepad leftShoulder]);
+    ReportJoystickButton(idx, BTN_R1, [gamepad rightShoulder]);
 }
 
 static void ReportJoystickExtended(int idx, GCExtendedGamepad* gamepad)
@@ -509,13 +535,13 @@ static void ReportJoystickExtended(int idx, GCExtendedGamepad* gamepad)
     ReportJoystickButton(idx, BTN_L2, [gamepad leftTrigger]);
     ReportJoystickButton(idx, BTN_R2, [gamepad rightTrigger]);
 
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 12.1)
+    if (@available(iOS 12.1, *))
     {
         ReportJoystickButton(idx, BTN_L3, [gamepad valueForKey: @"leftThumbstickButton"]);
         ReportJoystickButton(idx, BTN_R3, [gamepad valueForKey: @"rightThumbstickButton"]);
     }
 
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 13.0)
+    if (@available(iOS 13.0, *))
     {
         ReportJoystickButton(idx, BTN_MENU, [gamepad valueForKey: @"buttonMenu"]);
         ReportJoystickButton(idx, BTN_PAUSE, [gamepad valueForKey: @"buttonOptions"]);
@@ -553,14 +579,11 @@ static void ReportJoystickMotion(int idx, GCMotion* motion)
     Quaternion4f attitude = QuatMake(0.0f, 0.0f, 0.0f, 1.0f);
 
     bool gotRotationData = false;
-    if (@available(iOS 11.0, tvOS 11.0, *))
+    if (motion.hasAttitudeAndRotationRate)
     {
-        if (motion.hasAttitudeAndRotationRate)
-        {
-            rotationRate = {(float)motion.rotationRate.x, (float)motion.rotationRate.y, (float)motion.rotationRate.z};
-            attitude = {(float)motion.attitude.x, (float)motion.attitude.y, (float)motion.attitude.z, (float)motion.attitude.w};
-            gotRotationData = true;
-        }
+        rotationRate = {(float)motion.rotationRate.x, (float)motion.rotationRate.y, (float)motion.rotationRate.z};
+        attitude = {(float)motion.attitude.x, (float)motion.attitude.y, (float)motion.attitude.z, (float)motion.attitude.w};
+        gotRotationData = true;
     }
 
 #if SIMULATE_ATTITUDE_FROM_GRAVITY
@@ -598,8 +621,12 @@ static void ReportJoystick(GCController* controller, int idx)
 
     if ([controller extendedGamepad] != nil)
         ReportJoystickExtended(idx, [controller extendedGamepad]);
+    else if ([controller gamepad] != nil)
+        ReportJoystickBasic(idx, [controller gamepad]);
+#if PLATFORM_TVOS
     else if ([controller microGamepad] != nil)
         ReportJoystickMicro(idx, [controller microGamepad]);
+#endif
     else
     {
         // TODO: do something with not supported gamepad profiles

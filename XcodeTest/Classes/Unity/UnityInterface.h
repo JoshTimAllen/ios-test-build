@@ -48,36 +48,21 @@ void    UnityBatchPlayerLoop();             // batch mode like player loop, with
 void    UnitySetPlayerFocus(int focused);   // send OnApplicationFocus() message to scripts
 void    UnityLowMemory();
 void    UnityPause(int pause);
+void    UnitySuppressPauseMessage();
 int     UnityIsPaused();                    // 0 if player is running, 1 if paused
 void    UnityWillPause();                   // send the message that app will pause
 void    UnityWillResume();                  // send the message that app will resume
-void    UnityInputProcess();
 void    UnityDeliverUIEvents();             // unity processing impacting UI will be called in there
+void    UnityWaitForFrame();
+
+void    UnityInputProcess();                // no longer used, will be removed soon
 
 
 // rendering
 
-int     UnityGetRenderingAPIs(int capacity, int* outAPIs);
+int     UnityGetRenderingAPI();
 void    UnityFinishRendering();
-
-// OpenGL ES.
-
-int     UnityHasRenderingAPIExtension(const char* extension);
-void    UnityOnSetCurrentGLContext(EAGLContext* context);
-
-// This must match the one in ApiEnumsGLES.h
-typedef enum UnityFramebufferTarget
-{
-    kDrawFramebuffer = 0,
-    kReadFramebuffer,
-    kFramebufferTargetCount
-} UnityFramebufferTarget;
-void    UnityBindFramebuffer(UnityFramebufferTarget target, int fbo);
-void    UnityRegisterFBO(UnityRenderBufferHandle color, UnityRenderBufferHandle depth, unsigned fbo);
-
-// when texture (managed in trampoline) is used in unity (e.g. with external render surfaces)
-// we need to poke unity when we delete it (so it could clear caches etc)
-void    UnityOnDeleteGLTexture(int tex);
+void    UnityDisplayLinkCallback(double /*machAbsoluteTimeSeconds*/); // argument is not used anymore
 
 // controling player internals
 
@@ -90,6 +75,7 @@ void    UnityCaptureScreenshot();
 void    UnitySendMessage(const char* obj, const char* method, const char* msg);
 void    UnityUpdateMuteState(int mute);
 void    UnityUpdateAudioOutputState();
+
 int     UnityShouldMuteOtherAudioSources(void);
 int     UnityShouldPrepareForIOSRecording(void);
 int     UnityIsAudioManagerAvailableAndEnabled(void);
@@ -138,6 +124,7 @@ int     UnityUseAnimatedAutorotation();
 int     UnityGetDesiredMSAASampleCount(int defaultSampleCount);
 int     UnityGetSRGBRequested();
 int     UnityGetWideColorRequested();
+int     UnityGetHDRModeRequested();
 int     UnityGetShowActivityIndicatorOnLoading();
 int     UnityGetAccelerometerFrequency();
 int     UnityGetTargetFPS();
@@ -154,10 +141,7 @@ void    UnitySetAbsoluteURL(const char* url);
 
 // push notifications
 #if !PLATFORM_TVOS
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 void    UnitySendLocalNotification(UILocalNotification* notification);
-#pragma clang pop
 #endif
 void    UnitySendRemoteNotification(NSDictionary* notification);
 void    UnitySendDeviceToken(NSData* deviceToken);
@@ -206,7 +190,7 @@ void    UnityWebRequestConsumeUploadData(void* udata, unsigned consumedSize);
 
 // AVCapture
 
-void    UnityReportAVCapturePermission();
+void    UnityReportAVCapturePermission(void* userData);
 void    UnityDidCaptureVideoFrame(intptr_t tex, void* udata);
 
 // logging override
@@ -295,8 +279,6 @@ MTLCommandQueueRef  UnityGetMetalCommandQueue();
 MTLCommandQueueRef  UnityGetMetalDrawableCommandQueue();
 int UnityCommandQueueMaxCommandBufferCountMTL();
 
-EAGLContext*        UnityGetDataContextEAGL();
-
 UnityRenderBufferHandle UnityBackbufferColor();
 UnityRenderBufferHandle UnityBackbufferDepth();
 
@@ -331,7 +313,7 @@ void            UnityNotifyDeferSystemGesturesChange();
 
 // Unity/AVCapture.mm
 int             UnityGetAVCapturePermission(int captureTypes);
-void            UnityRequestAVCapturePermission(int captureTypes);
+void            UnityRequestAVCapturePermission(int captureTypes, void* userData);
 
 // Unity/CameraCapture.mm
 void            UnityEnumVideoCaptureDevices(void* udata, void(*callback)(void* udata, const char* name, int frontFacing, int autoFocusPointSupported, int kind, const int* resolutions, int resCount));
@@ -349,8 +331,8 @@ int             UnityCameraCaptureSetAutoFocusPoint(void* capture, float x, floa
 // Unity/DeviceSettings.mm
 const char*     UnityDeviceUniqueIdentifier();
 const char*     UnityVendorIdentifier();
-const char*     UnityAdvertisingIdentifier();
-int             UnityAdvertisingTrackingEnabled();
+const char*     UnityAdIdentifier();
+int             UnityAdTrackingEnabled();
 int             UnityGetLowPowerModeEnabled();
 int             UnityGetWantsSoftwareDimming();
 void            UnitySetWantsSoftwareDimming(int enabled);
@@ -367,8 +349,7 @@ const char*     UnitySystemLanguage();
 int             UnityDeviceSupportsUpsideDown();
 
 // Unity/DisplayManager.mm
-EAGLContext*    UnityGetMainScreenContextGLES();
-EAGLContext*    UnityGetContextEAGL();
+void            UnityActivateScreenForRendering(void* nativeDisplay);
 void            UnityStartFrameRendering();
 void            UnityDestroyUnityRenderSurfaces();
 int             UnityMainScreenRefreshRate();

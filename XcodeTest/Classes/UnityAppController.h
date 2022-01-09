@@ -61,7 +61,7 @@ __attribute__ ((visibility("default")))
 #endif
 
 @property (nonatomic, retain) id                            renderDelegate;
-@property (nonatomic, copy)                                 void(^quitHandler)();
+@property (nonatomic, copy)                                 void (^quitHandler)(void);
 
 @end
 
@@ -71,7 +71,7 @@ extern "C" {
 #endif
 
 extern UnityAppController* _UnityAppController;
-extern UnityAppController* GetAppController();
+extern UnityAppController* GetAppController(void);
 
 #ifdef __cplusplus
 } // extern "C"

@@ -46,7 +46,6 @@ extern bool _unityAppReady;
     ret.notificationDelegate = [[UnityViewControllerNotificationsDefaultSender alloc] init];
 
 #if PLATFORM_TVOS
-    // This enables game controller use in on-screen keyboard
     ret.controllerUserInteractionEnabled = YES;
 #endif
     return ret;
@@ -113,11 +112,7 @@ extern bool _unityAppReady;
 {
     // Note that on iPads with iOS 9 or later (up to iOS 10.2 at least) there's a bug in the iOS compositor: any use of -[UIView snapshotViewAfterScreenUpdates]
     // causes black screen being shown temporarily when 4 finger gesture to swipe to another app in the task switcher is being performed slowly
-#if UNITY_SNAPSHOT_VIEW_ON_APPLICATION_PAUSE
     return [_rootView snapshotViewAfterScreenUpdates: YES];
-#else
-    return nil;
-#endif
 }
 
 - (void)createUI
@@ -253,23 +248,17 @@ extern bool _unityAppReady;
 - (void)notifyHideHomeButtonChange
 {
 #if PLATFORM_IOS
-    if (@available(iOS 11.0, *))
-    {
-        // setNeedsUpdateOfHomeIndicatorAutoHidden is not implemented on iOS 11.0.
-        // The bug has been fixed in iOS 11.0.1. See http://www.openradar.me/35127134
-        if ([_rootController respondsToSelector: @selector(setNeedsUpdateOfHomeIndicatorAutoHidden)])
-            [_rootController setNeedsUpdateOfHomeIndicatorAutoHidden];
-    }
+    // setNeedsUpdateOfHomeIndicatorAutoHidden is not implemented on iOS 11.0.
+    // The bug has been fixed in iOS 11.0.1. See http://www.openradar.me/35127134
+    if ([_rootController respondsToSelector: @selector(setNeedsUpdateOfHomeIndicatorAutoHidden)])
+        [_rootController setNeedsUpdateOfHomeIndicatorAutoHidden];
 #endif
 }
 
 - (void)notifyDeferSystemGesturesChange
 {
 #if PLATFORM_IOS
-    if (@available(iOS 11.0, *))
-    {
-        [_rootController setNeedsUpdateOfScreenEdgesDeferringSystemGestures];
-    }
+    [_rootController setNeedsUpdateOfScreenEdgesDeferringSystemGestures];
 #endif
 }
 

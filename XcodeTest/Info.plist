@@ -6,6 +6,8 @@
     <false />
     <key>CADisableMinimumFrameDurationOnPhone</key>
     <false />
+    <key>CFBundleAllowMixedLocalizations</key>
+    <true />
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
@@ -43,7 +45,8 @@
     <false />
     <key>UIRequiredDeviceCapabilities</key>
     <array>
-      <string>armv7</string>
+      <string>arm64</string>
+      <string>metal</string>
     </array>
     <key>UIRequiresFullScreen</key>
     <true />

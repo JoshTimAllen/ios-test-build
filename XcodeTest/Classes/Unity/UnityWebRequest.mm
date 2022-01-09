@@ -317,8 +317,8 @@ extern "C" void UnitySendWebRequest(void* connection, unsigned length, unsigned 
     @autoreleasepool
     {
         UnityURLRequest* request = (__bridge UnityURLRequest*)connection;
-        request.wantCertificateCallback = wantCertificateCallback;
         request.timeoutInterval = timeoutSec;
+        request.wantCertificateCallback = wantCertificateCallback;
 
         NSOutputStream* outputStream = nil;
         bool useStream = length > 16384;
@@ -388,4 +388,31 @@ extern "C" void UnityCancelWebRequest(void* connection)
                 }
         }];
     }
+}
+
+extern "C" void UnityWebRequestClearCookieCache(const char* domain)
+{
+    NSArray<NSHTTPCookie*>* cookies;
+    NSHTTPCookieStorage* cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    if (domain == NULL)
+        cookies = [cookieStorage cookies];
+    else
+    {
+        NSURL* url = [NSURL URLWithString: [NSString stringWithUTF8String: domain]];
+        if (url.path == nil || [url.path isEqualToString: [NSString string]])
+        {
+            NSMutableArray<NSHTTPCookie*>* hostCookies = [[NSMutableArray<NSHTTPCookie *> alloc] init];
+            cookies = [cookieStorage cookies];
+            NSUInteger cookieCount = [cookies count];
+            for (unsigned i = 0; i < cookieCount; ++i)
+                if ([cookies[i].domain isEqualToString: url.host])
+                    [hostCookies addObject: cookies[i]];
+            cookies = hostCookies;
+        }
+        else
+            cookies = [cookieStorage cookiesForURL: url];
+    }
+    NSUInteger cookieCount = [cookies count];
+    for (int i = 0; i < cookieCount; ++i)
+        [cookieStorage deleteCookie: cookies[i]];
 }

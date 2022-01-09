@@ -71,9 +71,7 @@ namespace utils
             s_ExecutionContexts.GetValue(reinterpret_cast<void**>(&unwindState));
 
             if (unwindState->frameCount == unwindState->frameCapacity)
-            {
-                IL2CPP_ASSERT(0);
-            }
+                GrowFrameCapacity(unwindState);
 
             unwindState->executionContexts[unwindState->frameCount] = executionContext;
             unwindState->frameCount++;
@@ -104,7 +102,7 @@ namespace utils
         static void FreeThreadLocalData();
         static Il2CppSequencePoint* GetSequencePoint(const Il2CppImage* image, size_t id);
         static Il2CppSequencePoint* GetSequencePoints(const MethodInfo* method, void**iter);
-        static Il2CppSequencePoint* GetSequencePoint(Il2CppCatchPoint* cp);
+        static Il2CppSequencePoint* GetSequencePoint(const Il2CppImage* image, Il2CppCatchPoint* cp);
         static Il2CppCatchPoint* GetCatchPoints(const MethodInfo* method, void**iter);
         static Il2CppSequencePoint* GetAllSequencePoints(void* *iter);
         static void HandleException(Il2CppException *exc);
@@ -134,8 +132,8 @@ namespace utils
         }
 
         static bool IsPausePointActive();
-        static const MethodInfo* GetSequencePointMethod(Il2CppSequencePoint *seqPoint);
-        static const MethodInfo* GetCatchPointMethod(Il2CppCatchPoint *catchPoint);
+        static const MethodInfo* GetSequencePointMethod(const Il2CppImage* image, Il2CppSequencePoint *seqPoint);
+        static const MethodInfo* GetCatchPointMethod(const Il2CppImage* image, Il2CppCatchPoint *catchPoint);
 
         static inline void CheckSequencePoint(Il2CppSequencePointExecutionContext* executionContext, Il2CppSequencePoint* seqPoint)
         {
@@ -179,6 +177,7 @@ namespace utils
         static void InitializeMethodToSequencePointMap();
         static void InitializeTypeSourceFileMap();
         static void InitializeMethodToCatchPointMap();
+        static void GrowFrameCapacity(Il2CppThreadUnwindState* unwindState);
     };
 }
 }

@@ -12,8 +12,7 @@ static id QueryASIdentifierManager()
     if (bundle)
     {
         [bundle load];
-        Class retClass = [bundle classNamed: @"ASIdentifierManager"];
-        return [retClass performSelector: @selector(sharedManager)];
+        return [NSClassFromString(@"ASIdentifierManager") performSelector: @selector(sharedManager)];
     }
 
     return nil;
@@ -21,7 +20,7 @@ static id QueryASIdentifierManager()
 
 #endif
 
-extern "C" const char* UnityAdvertisingIdentifier()
+extern "C" const char* UnityAdIdentifier()
 {
     static const char* _ADID = NULL;
 
@@ -81,7 +80,7 @@ extern "C" int UnityGetIosAppOnMac()
 #endif
 }
 
-extern "C" int UnityAdvertisingTrackingEnabled()
+extern "C" int UnityAdTrackingEnabled()
 {
     bool _AdTrackingEnabled = false;
 
@@ -369,11 +368,7 @@ extern "C" int UnityDeviceSupportsUpsideDown()
 
 extern "C" int UnityDeviceSupportedOrientations()
 {
-    int orientations = 0;
-
-    orientations |= (1 << portrait);
-    orientations |= (1 << landscapeLeft);
-    orientations |= (1 << landscapeRight);
+    int orientations = (1 << portrait) | (1 << landscapeLeft) | (1 << landscapeRight);
     if (UnityDeviceSupportsUpsideDown())
         orientations |= (1 << portraitUpsideDown);
 
@@ -382,7 +377,7 @@ extern "C" int UnityDeviceSupportedOrientations()
 
 extern "C" int UnityDeviceIsStylusTouchSupported()
 {
-    int deviceGen = UnityDeviceGeneration();
+    const int deviceGen = UnityDeviceGeneration();
     return (deviceGen == deviceiPadPro1Gen ||
         deviceGen == deviceiPadPro10Inch1Gen ||
         deviceGen == deviceiPadPro2Gen ||
@@ -459,9 +454,9 @@ extern "C" float UnityDeviceDPI()
             case deviceiPad5Gen:
             case deviceiPad6Gen:
             case deviceiPadPro11Inch:
+            case deviceiPadPro3Gen:
             case deviceiPadPro11Inch2Gen:
             case deviceiPadPro11Inch3Gen:
-            case deviceiPadPro3Gen:
             case deviceiPadPro4Gen:
             case deviceiPadPro5Gen:
             case deviceiPad8Gen:

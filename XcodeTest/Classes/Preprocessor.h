@@ -25,12 +25,12 @@
 #error Please use tvOS SDK 11.0 or newer
 #endif
 
-#if TARGET_OS_IOS && (!defined(__IPHONE_10_0) || __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_10_0)
-#error Please target iOS 10.0 or newer
+#if TARGET_OS_IOS && (!defined(__IPHONE_11_0) || __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_11_0)
+#error Please target iOS 11.0 or newer
 #endif
 
-#if TARGET_OS_TV && (!defined(__TVOS_10_0) || __TV_OS_VERSION_MIN_REQUIRED < __TVOS_10_0)
-#error Please target tvOS 10.0 or newer
+#if TARGET_OS_TV && (!defined(__TVOS_11_0) || __TV_OS_VERSION_MIN_REQUIRED < __TVOS_11_0)
+#error Please target tvOS 11.0 or newer
 #endif
 
 //------------------------------------------------------------------------------
@@ -40,15 +40,21 @@
 
 #define UNITY_TRAMPOLINE_IN_USE 1
 
-#if defined(TARGET_OS_TV) && TARGET_OS_TV
-#define PLATFORM_TVOS 0
+#if defined(TARGET_OS_IOS) && TARGET_OS_IOS
 #define PLATFORM_IOS 1
+    #define PLATFORM_OSX    0
+#define PLATFORM_TVOS 0
+#elif defined(TARGET_OS_OSX) && TARGET_OS_OSX
+#define PLATFORM_IOS 1
+    #define PLATFORM_OSX    1
+#define PLATFORM_TVOS 0
+#elif defined(TARGET_OS_TV) && TARGET_OS_TV
+#define PLATFORM_IOS 1
+    #define PLATFORM_OSX    0
+#define PLATFORM_TVOS 0
 #else
-#define PLATFORM_TVOS 0
-#define PLATFORM_IOS 1
+    #error one of TARGET_OS_IOS, TARGET_OS_OSX, TARGET_OS_TV should be defined
 #endif
-
-#define PLATFORM_OSX 0
 
 
 //------------------------------------------------------------------------------
@@ -163,20 +169,21 @@
     #define UNITY_HAS_TVOSSDK_15_0 0
 #endif
 
-// The following UNITY_USES_* flags disable functionality in the trampoline project
-// whenever the user does not use it from his scripts. We detect the API usage and
-// adjust the value of these flags whenever the project is built (including when the
-// project is appended)
+// The following UNITY_USES_* flags disable functionality in the trampoline project whenever the user does not use it from his scripts.
+// We detect the API usage and adjust the value of these flags whenever the project is built (including "append")
 
 #define UNITY_USES_REMOTE_NOTIFICATIONS 0
 #define UNITY_USES_WEBCAM 0
 #define UNITY_USES_MICROPHONE 0
 #define UNITY_USES_REPLAY_KIT 0
-#define UNITY_USES_IAD 0
-#define UNITY_SNAPSHOT_VIEW_ON_APPLICATION_PAUSE 0
-#define UNITY_DEVELOPER_BUILD 0
 #define UNITY_USES_DYNAMIC_PLAYER_LIB 1
 #define UNITY_USES_LOCATION 0
+#define UNITY_USES_GLES 0
+#define UNITY_USES_IAD 0
+
+#define UNITY_SNAPSHOT_VIEW_ON_APPLICATION_PAUSE 0
+#define UNITY_DEVELOPER_BUILD 0
+
 
 #define USE_IL2CPP_PCH 0
 #define UNITY_SUPPORT_ROTATION PLATFORM_IOS

@@ -9,14 +9,9 @@
 #import <Availability.h>
 #import <AVFoundation/AVFoundation.h>
 
-#import <OpenGLES/EAGL.h>
-#import <OpenGLES/EAGLDrawable.h>
-#import <OpenGLES/ES2/gl.h>
-#import <OpenGLES/ES2/glext.h>
-
 #include <mach/mach_time.h>
 
-// MSAA_DEFAULT_SAMPLE_COUNT was moved to iPhone_GlesSupport.h
+// MSAA_DEFAULT_SAMPLE_COUNT was removed
 // ENABLE_INTERNAL_PROFILER and related defines were moved to iPhone_Profiler.h
 // kFPS define for removed: you can use Application.targetFrameRate (30 fps by default)
 // DisplayLink is the only run loop mode now - all others were removed
@@ -29,8 +24,6 @@
 #include "UI/SplashScreen.h"
 #include "Unity/InternalProfiler.h"
 #include "Unity/DisplayManager.h"
-#include "Unity/EAGLContextHelper.h"
-#include "Unity/GlesHelper.h"
 #include "Unity/ObjCRuntime.h"
 #include "PluginBase/AppDelegateListener.h"
 
@@ -72,8 +65,6 @@ bool    _didResignActive        = false;
 
 // was startUnity scheduled: used to make startup robust in case of locking device
 static bool _startUnityScheduled    = false;
-
-bool    _supportsMSAA           = false;
 
 #if UNITY_SUPPORT_ROTATION
 // Required to enable specific orientation for some presentation controllers: see supportedInterfaceOrientationsForWindow below for details
@@ -234,31 +225,20 @@ extern "C" void UnityCleanupTrampoline()
 #endif
 
 #if !PLATFORM_TVOS
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-implementations"
-#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 - (void)application:(UIApplication*)application didReceiveLocalNotification:(UILocalNotification*)notification
 {
     AppController_SendNotificationWithArg(kUnityDidReceiveLocalNotification, notification);
     UnitySendLocalNotification(notification);
 }
 
-#pragma clang diagnostic pop
-
 #endif
 
 #if UNITY_USES_REMOTE_NOTIFICATIONS
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdeprecated-implementations"
 - (void)application:(UIApplication*)application didReceiveRemoteNotification:(NSDictionary*)userInfo
 {
     AppController_SendNotificationWithArg(kUnityDidReceiveRemoteNotification, userInfo);
     UnitySendRemoteNotification(userInfo);
 }
-
-#pragma clang diagnostic pop
 
 - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
 {
@@ -459,30 +439,22 @@ extern "C" void UnityCleanupTrampoline()
 
 - (void)addSnapshotViewController
 {
-    // This is done on the next frame so that
-    // in the case where unity is paused while going
-    // into the background and an input is deactivated
-    // we don't mess with the view hierarchy while taking
-    // a view snapshot (case 760747).
-    dispatch_async(dispatch_get_main_queue(), ^{
-        // if we are active again, we don't need to do this anymore
-        if (!_didResignActive || self->_snapshotViewController)
-        {
-            return;
-        }
+    if (!_didResignActive || self->_snapshotViewController)
+    {
+        return;
+    }
 
-        UIView* snapshotView = [self createSnapshotView];
+    UIView* snapshotView = [self createSnapshotView];
 
-        if (snapshotView != nil)
-        {
-            UIViewController* snapshotViewController = [AllocUnityViewController() init];
-            snapshotViewController.modalPresentationStyle = UIModalPresentationFullScreen;
-            snapshotViewController.view = snapshotView;
+    if (snapshotView != nil)
+    {
+        UIViewController* snapshotViewController = [AllocUnityViewController() init];
+        snapshotViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+        snapshotViewController.view = snapshotView;
 
-            [self->_rootController presentViewController: snapshotViewController animated: false completion: nil];
-            self->_snapshotViewController = snapshotViewController;
-        }
-    });
+        [self->_rootController presentViewController: snapshotViewController animated: false completion: nil];
+        self->_snapshotViewController = snapshotViewController;
+    }
 }
 
 - (void)removeSnapshotViewController
@@ -516,6 +488,10 @@ extern "C" void UnityCleanupTrampoline()
     {
         UnitySetPlayerFocus(0);
 
+        // signal unity that the frame rendering have ended
+        // as we will not get the callback from the display link current frame
+        UnityDisplayLinkCallback(0);
+
         _wasPausedExternal = UnityIsPaused();
         if (_wasPausedExternal == false)
         {
@@ -523,14 +499,17 @@ extern "C" void UnityCleanupTrampoline()
             // otherwise batched player loop can be called to run user scripts.
             if (!UnityGetUseCustomAppBackgroundBehavior())
             {
+#if UNITY_SNAPSHOT_VIEW_ON_APPLICATION_PAUSE
                 // Force player to do one more frame, so scripts get a chance to render custom screen for minimized app in task manager.
                 // NB: UnityWillPause will schedule OnApplicationPause message, which will be sent normally inside repaint (unity player loop)
                 // NB: We will actually pause after the loop (when calling UnityPause).
                 UnityWillPause();
                 [self repaint];
-                UnityPause(1);
+                UnityWaitForFrame();
 
                 [self addSnapshotViewController];
+#endif
+                UnityPause(1);
             }
         }
     }
@@ -652,7 +631,6 @@ void UnityInitTrampoline()
     _ios100orNewer = CHECK_VER(@"10.0"), _ios101orNewer = CHECK_VER(@"10.1"), _ios102orNewer = CHECK_VER(@"10.2"), _ios103orNewer = CHECK_VER(@"10.3");
     _ios110orNewer = CHECK_VER(@"11.0"), _ios111orNewer = CHECK_VER(@"11.1"), _ios112orNewer = CHECK_VER(@"11.2");
     _ios130orNewer  = CHECK_VER(@"13.0");
-
 #undef CHECK_VER
 
     AddNewAPIImplIfNeeded();
@@ -697,3 +675,17 @@ static void AddNewAPIImplIfNeeded()
         class_replaceMethod([UIView class], @selector(safeAreaInsets), UIView_SafeAreaInsets_IMP, UIView_safeAreaInsets_Enc);
     }
 }
+
+// xcode11 uses new compiler-rt lib
+// if we build unity player lib with xcode11 and then user links final project with older xcode
+//   the link fails with Undefined Symbol ___isPlatformVersionAtLeast
+// hence we add this as a temporary hack until we start requiring xcode11
+
+#if __clang_major__ < 11
+extern "C" int32_t __isOSVersionAtLeast(int32_t Major, int32_t Minor, int32_t Subminor);
+extern "C" int32_t __isPlatformVersionAtLeast(uint32_t Platform, uint32_t Major, uint32_t Minor, uint32_t Subminor)
+{
+    return __isOSVersionAtLeast(Major, Minor, Subminor);
+}
+
+#endif

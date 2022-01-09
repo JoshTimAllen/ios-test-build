@@ -15,5 +15,11 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_GameCenter();
 	RegisterModule_GameCenter();
 
+	void RegisterModule_JSONSerialize();
+	RegisterModule_JSONSerialize();
+
+	void RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
+	RegisterModule_RuntimeInitializeOnLoadManagerInitializer();
+
 }
 
