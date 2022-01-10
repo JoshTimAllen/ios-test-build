@@ -406,6 +406,8 @@ struct ArrayTypeMismatchException_tFD610FDA00012564CB75AFCA3A489F29CF628784;
 struct Assembly_t;
 // System.Reflection.AssemblyCompanyAttribute
 struct AssemblyCompanyAttribute_t642AAB097D7DEAAB623BEBE4664327E9B01D1DE4;
+// System.Reflection.AssemblyConfigurationAttribute
+struct AssemblyConfigurationAttribute_t071B324A83314FBA14A43F37BE7206C420218B7C;
 // System.Reflection.AssemblyCopyrightAttribute
 struct AssemblyCopyrightAttribute_tA6A09319EF50B48D962810032000DEE7B12904EC;
 // System.Reflection.AssemblyDefaultAliasAttribute
@@ -430,6 +432,8 @@ struct AssemblyName_t066E458E26373ECD644F79643E9D4483212C9824;
 struct AssemblyProductAttribute_t6BB0E0F76C752E14A4C26B4D1E230019068601CA;
 // System.Reflection.AssemblyTitleAttribute
 struct AssemblyTitleAttribute_tABB894D0792C7F307694CC796C8AE5D6A20382E7;
+// System.Reflection.AssemblyTrademarkAttribute
+struct AssemblyTrademarkAttribute_t0602679435F8EBECC5DDB55CFE3A7A4A4CA2B5E2;
 // System.AsyncCallback
 struct AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA;
 // System.Runtime.Remoting.Channels.AsyncRequest
@@ -6180,6 +6184,25 @@ public:
 };
 
 
+// System.Reflection.AssemblyConfigurationAttribute
+struct AssemblyConfigurationAttribute_t071B324A83314FBA14A43F37BE7206C420218B7C  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+	// System.String System.Reflection.AssemblyConfigurationAttribute::m_configuration
+	String_t* ___m_configuration_0;
+
+public:
+	inline static int32_t get_offset_of_m_configuration_0() { return static_cast<int32_t>(offsetof(AssemblyConfigurationAttribute_t071B324A83314FBA14A43F37BE7206C420218B7C, ___m_configuration_0)); }
+	inline String_t* get_m_configuration_0() const { return ___m_configuration_0; }
+	inline String_t** get_address_of_m_configuration_0() { return &___m_configuration_0; }
+	inline void set_m_configuration_0(String_t* value)
+	{
+		___m_configuration_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_configuration_0), (void*)value);
+	}
+};
+
+
 // System.Reflection.AssemblyCopyrightAttribute
 struct AssemblyCopyrightAttribute_tA6A09319EF50B48D962810032000DEE7B12904EC  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
@@ -6365,6 +6388,25 @@ public:
 	{
 		___m_title_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___m_title_0), (void*)value);
+	}
+};
+
+
+// System.Reflection.AssemblyTrademarkAttribute
+struct AssemblyTrademarkAttribute_t0602679435F8EBECC5DDB55CFE3A7A4A4CA2B5E2  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+	// System.String System.Reflection.AssemblyTrademarkAttribute::m_trademark
+	String_t* ___m_trademark_0;
+
+public:
+	inline static int32_t get_offset_of_m_trademark_0() { return static_cast<int32_t>(offsetof(AssemblyTrademarkAttribute_t0602679435F8EBECC5DDB55CFE3A7A4A4CA2B5E2, ___m_trademark_0)); }
+	inline String_t* get_m_trademark_0() const { return ___m_trademark_0; }
+	inline String_t** get_address_of_m_trademark_0() { return &___m_trademark_0; }
+	inline void set_m_trademark_0(String_t* value)
+	{
+		___m_trademark_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_trademark_0), (void*)value);
 	}
 };
 
@@ -31789,6 +31831,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyCompanyAttribute__ctor_m435C9FEC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Reflection.AssemblyConfigurationAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyConfigurationAttribute__ctor_m6EE76F5A155EDEA71967A32F78D777038ADD0757 (AssemblyConfigurationAttribute_t071B324A83314FBA14A43F37BE7206C420218B7C * __this, String_t* ___configuration0, const RuntimeMethod* method)
+{
+	{
+		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___configuration0;
+		__this->set_m_configuration_0(L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -33694,6 +33754,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyTitleAttribute__ctor_mE239F206B3
 		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
 		String_t* L_0 = ___title0;
 		__this->set_m_title_0(L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Reflection.AssemblyTrademarkAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssemblyTrademarkAttribute__ctor_m6FBD5AAE48F00120043AD8BECF2586896CFB6C02 (AssemblyTrademarkAttribute_t0602679435F8EBECC5DDB55CFE3A7A4A4CA2B5E2 * __this, String_t* ___trademark0, const RuntimeMethod* method)
+{
+	{
+		Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___trademark0;
+		__this->set_m_trademark_0(L_0);
 		return;
 	}
 }
