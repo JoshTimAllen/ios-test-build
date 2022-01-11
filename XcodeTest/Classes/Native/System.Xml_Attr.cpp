@@ -90,6 +90,10 @@ struct String_t;
 struct Type_t;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+// System.Xml.Serialization.XmlAnyAttributeAttribute
+struct XmlAnyAttributeAttribute_t425ACE58EEBC7D08A1B23CD06B03CA75B8D5B094;
+// System.Xml.Serialization.XmlAnyElementAttribute
+struct XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92;
 // System.Xml.Serialization.XmlAttributeAttribute
 struct XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647;
 // System.Xml.Serialization.XmlElementAttribute
@@ -98,21 +102,63 @@ struct XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94;
 struct XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E;
 // System.Xml.Serialization.XmlIgnoreAttribute
 struct XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6;
+// System.Xml.Serialization.XmlNamespaceDeclarationsAttribute
+struct XmlNamespaceDeclarationsAttribute_t647F9C667C4A09EB4302FD0DD5F278FBC645869F;
 // System.Xml.Serialization.XmlRootAttribute
 struct XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96;
+// System.Xml.Serialization.XmlTextAttribute
+struct XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E;
 
 IL2CPP_EXTERN_C RuntimeClass* XmlSchemaContentProcessing_t28E999866F49ED1037761C5FD7E866076606757C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C const RuntimeType* U3CGetEntityAsyncU3Ed__15_t20AEFF2EBE2252FD1B094E4F290D7BD745CFF218_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* U3CGetNonFileStreamAsyncU3Ed__5_t3C3436560486693053CFE79D503DE114BD57F782_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaEnumerationFacet_t4B67F47457E07D2FB2A01454CE8D354D674B7B88_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaFractionDigitsFacet_t9136AA57D3160759DF463F84901DAEAD5BFC666C_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaImport_t2ED5DD15EB77A6B3A9A224EF9EDE1F19867763D6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaInclude_tC2F0E8346B0C6FEF0D484710ABE60C1283A0226B_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaKey_t1AEFF06D7A3A4BCF6882513B1EC4D73C06070ACB_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaKeyref_t5E71D4256C27D47EB7DE7193C14FD1CD708C9A38_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaLengthFacet_tCA12B6997BF51E6AA7E49138C20C6C0FF7678434_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaMaxExclusiveFacet_t01518FA341121E0D979EE7FFFEE0CED334CC5804_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaMaxInclusiveFacet_t7FD0BE7115B3D437E650654CAEE6F10C1ACF3548_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaMaxLengthFacet_t4572572CCF8C1AA3D5BE3A2194F0671746FFEE81_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaMinExclusiveFacet_t71B6F90C1181D3FFEB0A7F578426DB433AED3100_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaMinInclusiveFacet_t73F26B6FD7F6976A56CB82615D6BA35D5ECD2284_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaMinLengthFacet_t2DB09C7D11D25F86CEB19ED5A0373CCB4E534BBF_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaPatternFacet_t4B0DD650C87F804406E906E929F622AD1EEC5193_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaSimpleContent_t198EB18852BF3F3AA48C0085CFAEDB02DB3F5DC5_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaTotalDigitsFacet_t60E02B9A2116FE90A8BBE3837A4A59FA0EC19426_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaUnique_t7CD9A4DC791CFE37B90CEB07C0550B85F979DED6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaWhiteSpaceFacet_t56A22CBA1FF488041B8183E187DD8099DE0889E6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43_0_0_0_var;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -845,6 +891,55 @@ public:
 };
 
 
+// System.Xml.Serialization.XmlAnyAttributeAttribute
+struct XmlAnyAttributeAttribute_t425ACE58EEBC7D08A1B23CD06B03CA75B8D5B094  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+
+public:
+};
+
+
+// System.Xml.Serialization.XmlAnyElementAttribute
+struct XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+	// System.String System.Xml.Serialization.XmlAnyElementAttribute::elementName
+	String_t* ___elementName_0;
+	// System.String System.Xml.Serialization.XmlAnyElementAttribute::ns
+	String_t* ___ns_1;
+	// System.Int32 System.Xml.Serialization.XmlAnyElementAttribute::order
+	int32_t ___order_2;
+
+public:
+	inline static int32_t get_offset_of_elementName_0() { return static_cast<int32_t>(offsetof(XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92, ___elementName_0)); }
+	inline String_t* get_elementName_0() const { return ___elementName_0; }
+	inline String_t** get_address_of_elementName_0() { return &___elementName_0; }
+	inline void set_elementName_0(String_t* value)
+	{
+		___elementName_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___elementName_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_ns_1() { return static_cast<int32_t>(offsetof(XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92, ___ns_1)); }
+	inline String_t* get_ns_1() const { return ___ns_1; }
+	inline String_t** get_address_of_ns_1() { return &___ns_1; }
+	inline void set_ns_1(String_t* value)
+	{
+		___ns_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ns_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_order_2() { return static_cast<int32_t>(offsetof(XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92, ___order_2)); }
+	inline int32_t get_order_2() const { return ___order_2; }
+	inline int32_t* get_address_of_order_2() { return &___order_2; }
+	inline void set_order_2(int32_t value)
+	{
+		___order_2 = value;
+	}
+};
+
+
 // System.Xml.Serialization.XmlEnumAttribute
 struct XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
@@ -873,42 +968,92 @@ public:
 };
 
 
+// System.Xml.Serialization.XmlNamespaceDeclarationsAttribute
+struct XmlNamespaceDeclarationsAttribute_t647F9C667C4A09EB4302FD0DD5F278FBC645869F  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+
+public:
+};
+
+
 // System.Xml.Serialization.XmlRootAttribute
 struct XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
+	// System.String System.Xml.Serialization.XmlRootAttribute::dataType
+	String_t* ___dataType_0;
 	// System.String System.Xml.Serialization.XmlRootAttribute::elementName
-	String_t* ___elementName_0;
+	String_t* ___elementName_1;
 	// System.Boolean System.Xml.Serialization.XmlRootAttribute::isNullable
-	bool ___isNullable_1;
+	bool ___isNullable_2;
 	// System.String System.Xml.Serialization.XmlRootAttribute::ns
-	String_t* ___ns_2;
+	String_t* ___ns_3;
 
 public:
-	inline static int32_t get_offset_of_elementName_0() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96, ___elementName_0)); }
-	inline String_t* get_elementName_0() const { return ___elementName_0; }
-	inline String_t** get_address_of_elementName_0() { return &___elementName_0; }
-	inline void set_elementName_0(String_t* value)
+	inline static int32_t get_offset_of_dataType_0() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96, ___dataType_0)); }
+	inline String_t* get_dataType_0() const { return ___dataType_0; }
+	inline String_t** get_address_of_dataType_0() { return &___dataType_0; }
+	inline void set_dataType_0(String_t* value)
 	{
-		___elementName_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___elementName_0), (void*)value);
+		___dataType_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dataType_0), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_isNullable_1() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96, ___isNullable_1)); }
-	inline bool get_isNullable_1() const { return ___isNullable_1; }
-	inline bool* get_address_of_isNullable_1() { return &___isNullable_1; }
-	inline void set_isNullable_1(bool value)
+	inline static int32_t get_offset_of_elementName_1() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96, ___elementName_1)); }
+	inline String_t* get_elementName_1() const { return ___elementName_1; }
+	inline String_t** get_address_of_elementName_1() { return &___elementName_1; }
+	inline void set_elementName_1(String_t* value)
 	{
-		___isNullable_1 = value;
+		___elementName_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___elementName_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_ns_2() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96, ___ns_2)); }
-	inline String_t* get_ns_2() const { return ___ns_2; }
-	inline String_t** get_address_of_ns_2() { return &___ns_2; }
-	inline void set_ns_2(String_t* value)
+	inline static int32_t get_offset_of_isNullable_2() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96, ___isNullable_2)); }
+	inline bool get_isNullable_2() const { return ___isNullable_2; }
+	inline bool* get_address_of_isNullable_2() { return &___isNullable_2; }
+	inline void set_isNullable_2(bool value)
 	{
-		___ns_2 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___ns_2), (void*)value);
+		___isNullable_2 = value;
+	}
+
+	inline static int32_t get_offset_of_ns_3() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96, ___ns_3)); }
+	inline String_t* get_ns_3() const { return ___ns_3; }
+	inline String_t** get_address_of_ns_3() { return &___ns_3; }
+	inline void set_ns_3(String_t* value)
+	{
+		___ns_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ns_3), (void*)value);
+	}
+};
+
+
+// System.Xml.Serialization.XmlTextAttribute
+struct XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+{
+public:
+	// System.String System.Xml.Serialization.XmlTextAttribute::dataType
+	String_t* ___dataType_0;
+	// System.Type System.Xml.Serialization.XmlTextAttribute::type
+	Type_t * ___type_1;
+
+public:
+	inline static int32_t get_offset_of_dataType_0() { return static_cast<int32_t>(offsetof(XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E, ___dataType_0)); }
+	inline String_t* get_dataType_0() const { return ___dataType_0; }
+	inline String_t** get_address_of_dataType_0() { return &___dataType_0; }
+	inline void set_dataType_0(String_t* value)
+	{
+		___dataType_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___dataType_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_type_1() { return static_cast<int32_t>(offsetof(XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E, ___type_1)); }
+	inline Type_t * get_type_1() const { return ___type_1; }
+	inline Type_t ** get_address_of_type_1() { return &___type_1; }
+	inline void set_type_1(Type_t * value)
+	{
+		___type_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___type_1), (void*)value);
 	}
 };
 
@@ -1048,6 +1193,24 @@ public:
 };
 
 
+// System.Xml.Schema.XmlSchemaDerivationMethod
+struct XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E 
+{
+public:
+	// System.Int32 System.Xml.Schema.XmlSchemaDerivationMethod::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // System.Xml.Schema.XmlSchemaForm
 struct XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91 
 {
@@ -1057,6 +1220,24 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// System.Xml.Schema.XmlSchemaUse
+struct XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4 
+{
+public:
+	// System.Int32 System.Xml.Schema.XmlSchemaUse::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -1312,10 +1493,12 @@ public:
 	String_t* ___attributeName_0;
 	// System.String System.Xml.Serialization.XmlAttributeAttribute::dataType
 	String_t* ___dataType_1;
+	// System.Type System.Xml.Serialization.XmlAttributeAttribute::type
+	Type_t * ___type_2;
 	// System.Xml.Schema.XmlSchemaForm System.Xml.Serialization.XmlAttributeAttribute::form
-	int32_t ___form_2;
+	int32_t ___form_3;
 	// System.String System.Xml.Serialization.XmlAttributeAttribute::ns
-	String_t* ___ns_3;
+	String_t* ___ns_4;
 
 public:
 	inline static int32_t get_offset_of_attributeName_0() { return static_cast<int32_t>(offsetof(XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647, ___attributeName_0)); }
@@ -1336,21 +1519,30 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)(&___dataType_1), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_form_2() { return static_cast<int32_t>(offsetof(XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647, ___form_2)); }
-	inline int32_t get_form_2() const { return ___form_2; }
-	inline int32_t* get_address_of_form_2() { return &___form_2; }
-	inline void set_form_2(int32_t value)
+	inline static int32_t get_offset_of_type_2() { return static_cast<int32_t>(offsetof(XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647, ___type_2)); }
+	inline Type_t * get_type_2() const { return ___type_2; }
+	inline Type_t ** get_address_of_type_2() { return &___type_2; }
+	inline void set_type_2(Type_t * value)
 	{
-		___form_2 = value;
+		___type_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___type_2), (void*)value);
 	}
 
-	inline static int32_t get_offset_of_ns_3() { return static_cast<int32_t>(offsetof(XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647, ___ns_3)); }
-	inline String_t* get_ns_3() const { return ___ns_3; }
-	inline String_t** get_address_of_ns_3() { return &___ns_3; }
-	inline void set_ns_3(String_t* value)
+	inline static int32_t get_offset_of_form_3() { return static_cast<int32_t>(offsetof(XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647, ___form_3)); }
+	inline int32_t get_form_3() const { return ___form_3; }
+	inline int32_t* get_address_of_form_3() { return &___form_3; }
+	inline void set_form_3(int32_t value)
 	{
-		___ns_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___ns_3), (void*)value);
+		___form_3 = value;
+	}
+
+	inline static int32_t get_offset_of_ns_4() { return static_cast<int32_t>(offsetof(XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647, ___ns_4)); }
+	inline String_t* get_ns_4() const { return ___ns_4; }
+	inline String_t** get_address_of_ns_4() { return &___ns_4; }
+	inline void set_ns_4(String_t* value)
+	{
+		___ns_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___ns_4), (void*)value);
 	}
 };
 
@@ -1492,6 +1684,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerDisplayAttribute__ctor_m870C3A98
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttributeUsageAttribute__ctor_m5114E18826A49A025D48DC71904C430BD590656D (AttributeUsageAttribute_tBB0BAAA82036E6FCDD80A688BBD039F6FFD8EA1C * __this, int32_t ___validOn0, const RuntimeMethod* method);
 // System.Void System.AttributeUsageAttribute::set_AllowMultiple(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AttributeUsageAttribute_set_AllowMultiple_mF412CDAFFE16D056721EF81A1EC04ACE63612055_inline (AttributeUsageAttribute_tBB0BAAA82036E6FCDD80A688BBD039F6FFD8EA1C * __this, bool ___value0, const RuntimeMethod* method);
+// System.Void System.FlagsAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlagsAttribute__ctor_mE8DCBA1BE0E6B0424FEF5E5F249733CF6A0E1229 (FlagsAttribute_t511C558FACEF1CC64702A8FAB67CAF3CBA65DF36 * __this, const RuntimeMethod* method);
 // System.Void System.ObsoleteAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObsoleteAttribute__ctor_mAC32A5CCD287DA84CDA9F08282C1C8B0DB7B9868 (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * __this, String_t* ___message0, const RuntimeMethod* method);
 // System.Void System.Reflection.DefaultMemberAttribute::.ctor(System.String)
@@ -1508,26 +1702,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerHiddenAttribute__ctor_mB40799BB5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionalFieldAttribute__ctor_mE089D904BE867C605D7CAA6530F89C21717598A1 (OptionalFieldAttribute_t5761990BBE6FDD98072FD82D9EC2B9CD96CEFB59 * __this, const RuntimeMethod* method);
 // System.Void System.MonoTODOAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoTODOAttribute__ctor_m6D144D8AAB3713DB65C523EF574FC64745DC7C47 (MonoTODOAttribute_tF8137E40759566B832E7E9EC86E2C824085A7F47 * __this, const RuntimeMethod* method);
-// System.Void System.FlagsAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FlagsAttribute__ctor_mE8DCBA1BE0E6B0424FEF5E5F249733CF6A0E1229 (FlagsAttribute_t511C558FACEF1CC64702A8FAB67CAF3CBA65DF36 * __this, const RuntimeMethod* method);
 // System.Void System.Xml.Serialization.XmlRootAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlRootAttribute__ctor_mFF794C36E64D16871DECFD78A0344FDCCBAA9E39 (XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96 * __this, String_t* ___elementName0, const RuntimeMethod* method);
 // System.Void System.Xml.Serialization.XmlRootAttribute::set_Namespace(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlRootAttribute_set_Namespace_m1E1CCB7DAA8DFBE8125E41584BBAFAB7C1B33F90_inline (XmlRootAttribute_t509A188575B2B9912E6DBF82CBB9A17715BECB96 * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void System.Xml.Serialization.XmlAttributeAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749 (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * __this, String_t* ___attributeName0, const RuntimeMethod* method);
-// System.Void System.Xml.Serialization.XmlAttributeAttribute::set_DataType(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void System.ComponentModel.DefaultValueAttribute::.ctor(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13 (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * __this, RuntimeObject * ___value0, const RuntimeMethod* method);
-// System.Void System.Xml.Serialization.XmlIgnoreAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908 (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * __this, const RuntimeMethod* method);
+// System.Void System.Xml.Serialization.XmlAttributeAttribute::set_DataType(System.String)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String,System.Type)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * __this, String_t* ___elementName0, Type_t * ___type1, const RuntimeMethod* method);
+// System.Void System.Xml.Serialization.XmlIgnoreAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908 (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * __this, const RuntimeMethod* method);
+// System.Void System.Xml.Serialization.XmlAnyAttributeAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlAnyAttributeAttribute__ctor_mB8ABDB2B5AF2BB6933FA17A4DDC13EF04EFBE2AE (XmlAnyAttributeAttribute_t425ACE58EEBC7D08A1B23CD06B03CA75B8D5B094 * __this, const RuntimeMethod* method);
+// System.Void System.Xml.Serialization.XmlAnyElementAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlAnyElementAttribute__ctor_mAA7960DDD5C45DF2AB8AFB6B71115A896D959B22 (XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92 * __this, const RuntimeMethod* method);
+// System.Void System.Xml.Serialization.XmlTextAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlTextAttribute__ctor_mF201A411909C8F0FC7BA5DFA06D17E88F3078546 (XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E * __this, const RuntimeMethod* method);
+// System.Void System.ComponentModel.DefaultValueAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultValueAttribute__ctor_m65DBADCDC3A7BBD4AA6871023D36B91FC1772ADF (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Void System.Xml.Serialization.XmlElementAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlElementAttribute__ctor_m434F875F0651AD028C2EE19262CA0576A98B8381 (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * __this, String_t* ___elementName0, const RuntimeMethod* method);
 // System.Void System.ComponentModel.DefaultValueAttribute::.ctor(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultValueAttribute__ctor_m78FFD0C313E546C33C761F79E544E6FA5ADCB4D0 (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * __this, bool ___value0, const RuntimeMethod* method);
 // System.Void System.Xml.Serialization.XmlEnumAttribute::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlEnumAttribute__ctor_mF7FBA354F3ED12CB8B64B19A1A798C5F290916D2 (XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E * __this, String_t* ___name0, const RuntimeMethod* method);
+// System.Void System.Xml.Serialization.XmlNamespaceDeclarationsAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlNamespaceDeclarationsAttribute__ctor_m2A9D59059ABF39E5538FDE4EE6C880A4B6B5D368 (XmlNamespaceDeclarationsAttribute_t647F9C667C4A09EB4302FD0DD5F278FBC645869F * __this, const RuntimeMethod* method);
 static void System_Xml_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -1661,6 +1865,20 @@ static void MonoTODOAttribute_tF8137E40759566B832E7E9EC86E2C824085A7F47_CustomAt
 		AttributeUsageAttribute_set_AllowMultiple_mF412CDAFFE16D056721EF81A1EC04ACE63612055_inline(tmp, true, NULL);
 	}
 }
+static void AsyncHelper_t5BBA4E723AFA5229BD866D2ED5EFB1F2590C5EB2_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		ExtensionAttribute_t917F3F92E717DC8B2D7BC03967A9790B1B8EF7CC * tmp = (ExtensionAttribute_t917F3F92E717DC8B2D7BC03967A9790B1B8EF7CC *)cache->attributes[0];
+		ExtensionAttribute__ctor_mB331519C39C4210259A248A4C629DF934937C1FA(tmp, NULL);
+	}
+}
+static void NamespaceHandling_t7974F9A117390EC627D6C12EB7219594674ADC80_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		FlagsAttribute_t511C558FACEF1CC64702A8FAB67CAF3CBA65DF36 * tmp = (FlagsAttribute_t511C558FACEF1CC64702A8FAB67CAF3CBA65DF36 *)cache->attributes[0];
+		FlagsAttribute__ctor_mE8DCBA1BE0E6B0424FEF5E5F249733CF6A0E1229(tmp, NULL);
+	}
+}
 static void ValidationType_t588D32514C11D985F976526F7E3C81ABD1D27EBA_CustomAttributesCacheGenerator_Auto(CustomAttributesCache* cache)
 {
 	{
@@ -1675,15 +1893,22 @@ static void ValidationType_t588D32514C11D985F976526F7E3C81ABD1D27EBA_CustomAttri
 		ObsoleteAttribute__ctor_mAC32A5CCD287DA84CDA9F08282C1C8B0DB7B9868(tmp, il2cpp_codegen_string_new_wrapper("\x58\x44\x52\x20\x56\x61\x6C\x69\x64\x61\x74\x69\x6F\x6E\x20\x74\x68\x72\x6F\x75\x67\x68\x20\x58\x6D\x6C\x56\x61\x6C\x69\x64\x61\x74\x69\x6E\x67\x52\x65\x61\x64\x65\x72\x20\x69\x73\x20\x6F\x62\x73\x6F\x6C\x65\x74\x65\x64"), NULL);
 	}
 }
-static void XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+static void XmlAsyncCheckReader_tD0429D7F2F5302F1590B6D74DE9165BB622D5036_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
 		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
 		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
 	}
+}
+static void XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
 	{
-		DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F * tmp = (DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F *)cache->attributes[1];
+		DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F * tmp = (DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F *)cache->attributes[0];
 		DebuggerDisplayAttribute__ctor_m870C3A98DA4C9FA7FD4411169AF30C55A90B9988(tmp, il2cpp_codegen_string_new_wrapper("\x7B\x64\x65\x62\x75\x67\x67\x65\x72\x44\x69\x73\x70\x6C\x61\x79\x50\x72\x6F\x78\x79\x7D"), NULL);
+	}
+	{
+		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[1];
+		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
 	}
 	{
 		DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F * tmp = (DebuggerDisplayAttribute_tA5070C1A6CAB579DAC66A469530D946F6F42727F *)cache->attributes[2];
@@ -1711,6 +1936,13 @@ static void XmlReaderSettings_tD1257418720567D67A7C49A7498914FE937F1520_CustomAt
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
+static void XmlReaderSettings_tD1257418720567D67A7C49A7498914FE937F1520_CustomAttributesCacheGenerator_XmlReaderSettings_get_IsXmlResolverSet_m3D2A72FE56F5AF6C85D79B3AA465234F89E869F4(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+	}
+}
 static void XmlReaderSettings_tD1257418720567D67A7C49A7498914FE937F1520_CustomAttributesCacheGenerator_XmlReaderSettings_set_IsXmlResolverSet_m4374404167E732ADF4FF5D5699DA1A2763B4A048(CustomAttributesCache* cache)
 {
 	{
@@ -1730,6 +1962,20 @@ static void XmlTextWriter_t2CC07B7AAF1DF89CE65E7782EBC8CA1BB179DAD2_CustomAttrib
 	{
 		EditorBrowsableAttribute_tE201891FE727EB3FB75B488A2BF6D4DF3CB80614 * tmp = (EditorBrowsableAttribute_tE201891FE727EB3FB75B488A2BF6D4DF3CB80614 *)cache->attributes[0];
 		EditorBrowsableAttribute__ctor_mC77290C5157BDA154F1D03BD1551223B07A851D4(tmp, 1LL, NULL);
+	}
+}
+static void XmlValidatingReader_t54F6E2AD9A5405BCF694091CEB60EEC30323E659_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * tmp = (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 *)cache->attributes[0];
+		ObsoleteAttribute__ctor_mAC32A5CCD287DA84CDA9F08282C1C8B0DB7B9868(tmp, il2cpp_codegen_string_new_wrapper("\x55\x73\x65\x20\x58\x6D\x6C\x52\x65\x61\x64\x65\x72\x20\x63\x72\x65\x61\x74\x65\x64\x20\x62\x79\x20\x58\x6D\x6C\x52\x65\x61\x64\x65\x72\x2E\x43\x72\x65\x61\x74\x65\x28\x29\x20\x6D\x65\x74\x68\x6F\x64\x20\x75\x73\x69\x6E\x67\x20\x61\x70\x70\x72\x6F\x70\x72\x69\x61\x74\x65\x20\x58\x6D\x6C\x52\x65\x61\x64\x65\x72\x53\x65\x74\x74\x69\x6E\x67\x73\x20\x69\x6E\x73\x74\x65\x61\x64\x2E\x20\x68\x74\x74\x70\x3A\x2F\x2F\x67\x6F\x2E\x6D\x69\x63\x72\x6F\x73\x6F\x66\x74\x2E\x63\x6F\x6D\x2F\x66\x77\x6C\x69\x6E\x6B\x2F\x3F\x6C\x69\x6E\x6B\x69\x64\x3D\x31\x34\x32\x30\x32"), NULL);
+	}
+}
+static void XsdCachingReader_tBFD2DD7C1AC298C42EDBD6B67F6619A3536FB197_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
+		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
 	}
 }
 static void XmlAttributeCollection_tDC800F98FE32D4723967772453EB600D1C368AA3_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -1762,6 +2008,13 @@ static void XmlNodeList_t1DBBA2CC948CC6631BC33AA7405E11C8105E6EE9_CustomAttribut
 	{
 		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
 		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D\x4F\x66"), NULL);
+	}
+}
+static void HWStack_t1265FA4E1AC6B95F7F1894A4FDF930F428590BD3_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
+		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
 	}
 }
 static void XmlConvert_t5D0BE0A0EE15E2D3EC7F4881C519B5137DFA370A_CustomAttributesCacheGenerator_XmlConvert_ToString_m4641C988539C8EB17C589761E674B9521EEA62E5(CustomAttributesCache* cache)
@@ -1938,6 +2191,13 @@ static void XmlTypeConvertorAttribute_t9C029CB7A95EE9E3BAFFCB8DA5174C0364DA1D4E_
 		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
 	}
 }
+static void XmlTypeConvertorAttribute_t9C029CB7A95EE9E3BAFFCB8DA5174C0364DA1D4E_CustomAttributesCacheGenerator_XmlTypeConvertorAttribute_set_Method_mC01F1A24104F47A6DA6F8CADDCE9CA57D8552283(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+	}
+}
 static void XmlAnyAttributeAttribute_t425ACE58EEBC7D08A1B23CD06B03CA75B8D5B094_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -2103,6 +2363,13 @@ static void BitSet_t36CD5E21CDE8972A6BCEF9E414933DD893966438_CustomAttributesCac
 		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
 	}
 }
+static void KeySequence_t08AA6838D11962D7B7054DC2059A94B24317EE10_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
+		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
+	}
+}
 static void SymbolsDictionary_tC502F0D6AE462F83D106895089A819B184ADFBDF_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -2132,12 +2399,378 @@ static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributes
 		XmlRootAttribute_set_Namespace_m1E1CCB7DAA8DFBE8125E41584BBAFAB7C1B33F90_inline(tmp, il2cpp_codegen_string_new_wrapper("\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x77\x33\x2E\x6F\x72\x67\x2F\x32\x30\x30\x31\x2F\x58\x4D\x4C\x53\x63\x68\x65\x6D\x61"), NULL);
 	}
 }
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____AttributeFormDefault_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x46\x6F\x72\x6D\x44\x65\x66\x61\x75\x6C\x74"), NULL);
+	}
+	{
+		int32_t _tmp_0 = 0;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____BlockDefault_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t _tmp_0 = 256;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x62\x6C\x6F\x63\x6B\x44\x65\x66\x61\x75\x6C\x74"), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____FinalDefault_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t _tmp_0 = 256;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x66\x69\x6E\x61\x6C\x44\x65\x66\x61\x75\x6C\x74"), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____ElementFormDefault_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6C\x65\x6D\x65\x6E\x74\x46\x6F\x72\x6D\x44\x65\x66\x61\x75\x6C\x74"), NULL);
+	}
+	{
+		int32_t _tmp_0 = 0;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____TargetNamespace_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x74\x61\x72\x67\x65\x74\x4E\x61\x6D\x65\x73\x70\x61\x63\x65"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x55\x52\x49"), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Version_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x76\x65\x72\x73\x69\x6F\x6E"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x74\x6F\x6B\x65\x6E"), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Includes_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaImport_t2ED5DD15EB77A6B3A9A224EF9EDE1F19867763D6_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaInclude_tC2F0E8346B0C6FEF0D484710ABE60C1283A0226B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x69\x6E\x63\x6C\x75\x64\x65"), il2cpp_codegen_type_get_object(XmlSchemaInclude_tC2F0E8346B0C6FEF0D484710ABE60C1283A0226B_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x64\x65\x66\x69\x6E\x65"), il2cpp_codegen_type_get_object(XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x69\x6D\x70\x6F\x72\x74"), il2cpp_codegen_type_get_object(XmlSchemaImport_t2ED5DD15EB77A6B3A9A224EF9EDE1F19867763D6_0_0_0_var), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Items_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x6F\x6D\x70\x6C\x65\x78\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x47\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6C\x65\x6D\x65\x6E\x74"), il2cpp_codegen_type_get_object(XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[3];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x69\x6D\x70\x6C\x65\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[4];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x6E\x6F\x74\x61\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[5];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x67\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[6];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65"), il2cpp_codegen_type_get_object(XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[7];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x6F\x74\x61\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_0_0_0_var), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IsCompiledBySet_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IsPreprocessed_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IsRedefined_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Attributes_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____AttributeGroups_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____SchemaTypes_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Elements_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
 static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Id_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
 		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
 		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x69\x64"), NULL);
 		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49\x44"), NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Groups_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Notations_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IdentityConstraints_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____BaseUri_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____SchemaId_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IsChameleon_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Ids_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Document_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____ErrorCount_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IdAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_CustomAttributesCacheGenerator_XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF____Items_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6C\x65\x6D\x65\x6E\x74"), il2cpp_codegen_type_get_object(XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7_CustomAttributesCacheGenerator_XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7____Id_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x69\x64"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49\x44"), NULL);
+	}
+}
+static void XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7_CustomAttributesCacheGenerator_XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7____Annotation_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x6E\x6F\x74\x61\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7_CustomAttributesCacheGenerator_XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7____UnhandledAttributes_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAnyAttributeAttribute_t425ACE58EEBC7D08A1B23CD06B03CA75B8D5B094 * tmp = (XmlAnyAttributeAttribute_t425ACE58EEBC7D08A1B23CD06B03CA75B8D5B094 *)cache->attributes[0];
+		XmlAnyAttributeAttribute__ctor_mB8ABDB2B5AF2BB6933FA17A4DDC13EF04EFBE2AE(tmp, NULL);
+	}
+}
+static void XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7_CustomAttributesCacheGenerator_XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7____IdAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_CustomAttributesCacheGenerator_XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92____Id_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x69\x64"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49\x44"), NULL);
+	}
+}
+static void XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_CustomAttributesCacheGenerator_XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92____Items_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x64\x6F\x63\x75\x6D\x65\x6E\x74\x61\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x70\x70\x69\x6E\x66\x6F"), il2cpp_codegen_type_get_object(XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_CustomAttributesCacheGenerator_XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92____IdAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____Namespace_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65\x73\x70\x61\x63\x65"), NULL);
 	}
 }
 static void XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____ProcessContents_PropertyInfo(CustomAttributesCache* cache)
@@ -2149,13 +2782,13 @@ static void XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttribu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		int32_t _tmp_0 = 0;
-		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
-		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaContentProcessing_t28E999866F49ED1037761C5FD7E866076606757C_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x6F\x63\x65\x73\x73\x43\x6F\x6E\x74\x65\x6E\x74\x73"), NULL);
 	}
 	{
-		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
-		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x6F\x63\x65\x73\x73\x43\x6F\x6E\x74\x65\x6E\x74\x73"), NULL);
+		int32_t _tmp_0 = 0;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaContentProcessing_t28E999866F49ED1037761C5FD7E866076606757C_il2cpp_TypeInfo_var, &_tmp_0), NULL);
 	}
 }
 static void XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____NamespaceList_PropertyInfo(CustomAttributesCache* cache)
@@ -2163,6 +2796,27 @@ static void XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttribu
 	{
 		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
 		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____ResolvedNamespace_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____ProcessContentsCorrect_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_CustomAttributesCacheGenerator_XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80____Namespace_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65\x73\x70\x61\x63\x65"), NULL);
 	}
 }
 static void XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_CustomAttributesCacheGenerator_XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80____ProcessContents_PropertyInfo(CustomAttributesCache* cache)
@@ -2174,13 +2828,248 @@ static void XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x6F\x63\x65\x73\x73\x43\x6F\x6E\x74\x65\x6E\x74\x73"), NULL);
+	}
+	{
 		int32_t _tmp_0 = 0;
-		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
 		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaContentProcessing_t28E999866F49ED1037761C5FD7E866076606757C_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+}
+static void XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_CustomAttributesCacheGenerator_XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80____NamespaceList_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_CustomAttributesCacheGenerator_XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80____ProcessContentsCorrect_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED_CustomAttributesCacheGenerator_XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED____Source_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x73\x6F\x75\x72\x63\x65"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x55\x52\x49"), NULL);
+	}
+}
+static void XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED_CustomAttributesCacheGenerator_XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED____Markup_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92 * tmp = (XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92 *)cache->attributes[0];
+		XmlAnyElementAttribute__ctor_mAA7960DDD5C45DF2AB8AFB6B71115A896D959B22(tmp, NULL);
+	}
+	{
+		XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E * tmp = (XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E *)cache->attributes[1];
+		XmlTextAttribute__ctor_mF201A411909C8F0FC7BA5DFA06D17E88F3078546(tmp, NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____DefaultValue_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_m65DBADCDC3A7BBD4AA6871023D36B91FC1772ADF(tmp, NULL, NULL);
 	}
 	{
 		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
-		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x6F\x63\x65\x73\x73\x43\x6F\x6E\x74\x65\x6E\x74\x73"), NULL);
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x66\x61\x75\x6C\x74"), NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____FixedValue_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_m65DBADCDC3A7BBD4AA6871023D36B91FC1772ADF(tmp, NULL, NULL);
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x66\x69\x78\x65\x64"), NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____Form_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x66\x6F\x72\x6D"), NULL);
+	}
+	{
+		int32_t _tmp_0 = 0;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____Name_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65"), NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____RefName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x66"), NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____SchemaTypeName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x74\x79\x70\x65"), NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____SchemaType_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m434F875F0651AD028C2EE19262CA0576A98B8381(tmp, il2cpp_codegen_string_new_wrapper("\x73\x69\x6D\x70\x6C\x65\x54\x79\x70\x65"), NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____Use_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x75\x73\x65"), NULL);
+	}
+	{
+		int32_t _tmp_0 = 0;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____QualifiedName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____AttributeSchemaType_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____Datatype_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____NameAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____Name_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65"), NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____Attributes_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65"), il2cpp_codegen_type_get_object(XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x47\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____AnyAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m434F875F0651AD028C2EE19262CA0576A98B8381(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x41\x74\x74\x72\x69\x62\x75\x74\x65"), NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____QualifiedName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____AttributeUses_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____AttributeWildcard_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____RedefinedAttributeGroup_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____Redefined_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____SelfReferenceCount_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____NameAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_CustomAttributesCacheGenerator_XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848____RefName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x66"), NULL);
 	}
 }
 static void XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_CustomAttributesCacheGenerator_XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0____Items_PropertyInfo(CustomAttributesCache* cache)
@@ -2197,7 +3086,89 @@ static void XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_CustomAttr
 	}
 	{
 		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x71\x75\x65\x6E\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
 		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79"), il2cpp_codegen_type_get_object(XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x67\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[3];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6C\x65\x6D\x65\x6E\x74"), il2cpp_codegen_type_get_object(XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[4];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x68\x6F\x69\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaCollection_tBC27DD21E5D0EDB426B83DBD3C82A6A902D19632_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * tmp = (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 *)cache->attributes[0];
+		ObsoleteAttribute__ctor_mAC32A5CCD287DA84CDA9F08282C1C8B0DB7B9868(tmp, il2cpp_codegen_string_new_wrapper("\x55\x73\x65\x20\x53\x79\x73\x74\x65\x6D\x2E\x58\x6D\x6C\x2E\x53\x63\x68\x65\x6D\x61\x2E\x58\x6D\x6C\x53\x63\x68\x65\x6D\x61\x53\x65\x74\x20\x66\x6F\x72\x20\x73\x63\x68\x65\x6D\x61\x20\x63\x6F\x6D\x70\x69\x6C\x61\x74\x69\x6F\x6E\x20\x61\x6E\x64\x20\x76\x61\x6C\x69\x64\x61\x74\x69\x6F\x6E\x2E\x20\x68\x74\x74\x70\x3A\x2F\x2F\x67\x6F\x2E\x6D\x69\x63\x72\x6F\x73\x6F\x66\x74\x2E\x63\x6F\x6D\x2F\x66\x77\x6C\x69\x6E\x6B\x2F\x3F\x6C\x69\x6E\x6B\x69\x64\x3D\x31\x34\x32\x30\x32"), NULL);
+	}
+	{
+		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[1];
+		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
+	}
+}
+static void XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_CustomAttributesCacheGenerator_XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4____IsMixed_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x78\x65\x64"), NULL);
+	}
+}
+static void XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_CustomAttributesCacheGenerator_XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4____Content_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x73\x74\x72\x69\x63\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x65\x78\x74\x65\x6E\x73\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_CustomAttributesCacheGenerator_XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4____HasMixedAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_CustomAttributesCacheGenerator_XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199____BaseTypeName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x73\x65"), NULL);
+	}
+}
+static void XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_CustomAttributesCacheGenerator_XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199____Particle_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x68\x6F\x69\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var), NULL);
 	}
 	{
 		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
@@ -2205,15 +3176,96 @@ static void XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_CustomAttr
 	}
 	{
 		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
-		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6C\x65\x6D\x65\x6E\x74"), il2cpp_codegen_type_get_object(XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_0_0_0_var), NULL);
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6C\x6C"), il2cpp_codegen_type_get_object(XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var), NULL);
 	}
 	{
 		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[3];
 		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x71\x75\x65\x6E\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var), NULL);
 	}
+}
+static void XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_CustomAttributesCacheGenerator_XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199____Attributes_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[4];
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x47\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65"), il2cpp_codegen_type_get_object(XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_CustomAttributesCacheGenerator_XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199____AnyAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m434F875F0651AD028C2EE19262CA0576A98B8381(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x41\x74\x74\x72\x69\x62\x75\x74\x65"), NULL);
+	}
+}
+static void XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_CustomAttributesCacheGenerator_XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE____BaseTypeName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x73\x65"), NULL);
+	}
+}
+static void XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_CustomAttributesCacheGenerator_XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE____Particle_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
 		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x68\x6F\x69\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x67\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x71\x75\x65\x6E\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[3];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6C\x6C"), il2cpp_codegen_type_get_object(XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_CustomAttributesCacheGenerator_XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE____Attributes_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x47\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65"), il2cpp_codegen_type_get_object(XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_CustomAttributesCacheGenerator_XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE____AnyAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m434F875F0651AD028C2EE19262CA0576A98B8381(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x41\x74\x74\x72\x69\x62\x75\x74\x65"), NULL);
 	}
 }
 static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____AnyType_PropertyInfo(CustomAttributesCache* cache)
@@ -2221,6 +3273,42 @@ static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_Custo
 	{
 		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
 		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____UntypedAnyType_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____IsAbstract_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x61\x62\x73\x74\x72\x61\x63\x74"), NULL);
+	}
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_m78FFD0C313E546C33C761F79E544E6FA5ADCB4D0(tmp, false, NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____Block_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t _tmp_0 = 256;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x62\x6C\x6F\x63\x6B"), NULL);
 	}
 }
 static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____IsMixed_PropertyInfo(CustomAttributesCache* cache)
@@ -2234,7 +3322,120 @@ static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_Custo
 		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x78\x65\x64"), NULL);
 	}
 }
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____ContentModel_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleContent_t198EB18852BF3F3AA48C0085CFAEDB02DB3F5DC5_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x6F\x6D\x70\x6C\x65\x78\x43\x6F\x6E\x74\x65\x6E\x74"), il2cpp_codegen_type_get_object(XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x69\x6D\x70\x6C\x65\x43\x6F\x6E\x74\x65\x6E\x74"), il2cpp_codegen_type_get_object(XmlSchemaSimpleContent_t198EB18852BF3F3AA48C0085CFAEDB02DB3F5DC5_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____Particle_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x71\x75\x65\x6E\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6C\x6C"), il2cpp_codegen_type_get_object(XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x68\x6F\x69\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[3];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x67\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____Attributes_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65"), il2cpp_codegen_type_get_object(XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x47\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____AnyAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m434F875F0651AD028C2EE19262CA0576A98B8381(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x41\x74\x74\x72\x69\x62\x75\x74\x65"), NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____ContentType_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
 static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____ContentTypeParticle_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____BlockResolved_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____AttributeUses_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____AttributeWildcard_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____LocalElements_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaContentModel_t3F6A4591307B97FB9B51D9300B1563880EB56EF0_CustomAttributesCacheGenerator_XmlSchemaContentModel_t3F6A4591307B97FB9B51D9300B1563880EB56EF0____Content_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
 		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
@@ -2332,11 +3533,312 @@ static void XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_
 		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
 	}
 }
+static void XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_CustomAttributesCacheGenerator_XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556____Source_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x73\x6F\x75\x72\x63\x65"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x55\x52\x49"), NULL);
+	}
+}
+static void XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_CustomAttributesCacheGenerator_XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556____Language_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x78\x6D\x6C\x3A\x6C\x61\x6E\x67"), NULL);
+	}
+}
+static void XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_CustomAttributesCacheGenerator_XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556____Markup_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E * tmp = (XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E *)cache->attributes[0];
+		XmlTextAttribute__ctor_mF201A411909C8F0FC7BA5DFA06D17E88F3078546(tmp, NULL);
+	}
+	{
+		XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92 * tmp = (XmlAnyElementAttribute_tADA3A2E357EFE676DAD4052392F28E6E2FDC5A92 *)cache->attributes[1];
+		XmlAnyElementAttribute__ctor_mAA7960DDD5C45DF2AB8AFB6B71115A896D959B22(tmp, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____IsAbstract_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x61\x62\x73\x74\x72\x61\x63\x74"), NULL);
+	}
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_m78FFD0C313E546C33C761F79E544E6FA5ADCB4D0(tmp, false, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Block_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x62\x6C\x6F\x63\x6B"), NULL);
+	}
+	{
+		int32_t _tmp_0 = 256;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____DefaultValue_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x64\x65\x66\x61\x75\x6C\x74"), NULL);
+	}
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_m65DBADCDC3A7BBD4AA6871023D36B91FC1772ADF(tmp, NULL, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Final_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t _tmp_0 = 256;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x66\x69\x6E\x61\x6C"), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____FixedValue_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_m65DBADCDC3A7BBD4AA6871023D36B91FC1772ADF(tmp, NULL, NULL);
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x66\x69\x78\x65\x64"), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Form_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x66\x6F\x72\x6D"), NULL);
+	}
+	{
+		int32_t _tmp_0 = 0;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Name_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65"), NULL);
+	}
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_m65DBADCDC3A7BBD4AA6871023D36B91FC1772ADF(tmp, il2cpp_codegen_string_new_wrapper(""), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____IsNillable_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_m78FFD0C313E546C33C761F79E544E6FA5ADCB4D0(tmp, false, NULL);
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x69\x6C\x6C\x61\x62\x6C\x65"), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____HasNillableAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____HasAbstractAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____RefName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x66"), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____SubstitutionGroup_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x73\x75\x62\x73\x74\x69\x74\x75\x74\x69\x6F\x6E\x47\x72\x6F\x75\x70"), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____SchemaTypeName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x74\x79\x70\x65"), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____SchemaType_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x6F\x6D\x70\x6C\x65\x78\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x69\x6D\x70\x6C\x65\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Constraints_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaKey_t1AEFF06D7A3A4BCF6882513B1EC4D73C06070ACB_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaKeyref_t5E71D4256C27D47EB7DE7193C14FD1CD708C9A38_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaUnique_t7CD9A4DC791CFE37B90CEB07C0550B85F979DED6_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6B\x65\x79\x72\x65\x66"), il2cpp_codegen_type_get_object(XmlSchemaKeyref_t5E71D4256C27D47EB7DE7193C14FD1CD708C9A38_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x75\x6E\x69\x71\x75\x65"), il2cpp_codegen_type_get_object(XmlSchemaUnique_t7CD9A4DC791CFE37B90CEB07C0550B85F979DED6_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6B\x65\x79"), il2cpp_codegen_type_get_object(XmlSchemaKey_t1AEFF06D7A3A4BCF6882513B1EC4D73C06070ACB_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____QualifiedName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____ElementSchemaType_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____BlockResolved_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____FinalResolved_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____NameAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____NameString_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____SchemaLocation_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x73\x63\x68\x65\x6D\x61\x4C\x6F\x63\x61\x74\x69\x6F\x6E"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x55\x52\x49"), NULL);
+	}
+}
+static void XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____Schema_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____Id_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x69\x64"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x49\x44"), NULL);
+	}
+}
+static void XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____BaseUri_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____IdAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
 static void XmlSchemaFacet_t573C0D6C490EC4BD2D0AF19D2BA11C47A4EE713F_CustomAttributesCacheGenerator_XmlSchemaFacet_t573C0D6C490EC4BD2D0AF19D2BA11C47A4EE713F____Value_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
 		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
 		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x76\x61\x6C\x75\x65"), NULL);
+	}
+}
+static void XmlSchemaFacet_t573C0D6C490EC4BD2D0AF19D2BA11C47A4EE713F_CustomAttributesCacheGenerator_XmlSchemaFacet_t573C0D6C490EC4BD2D0AF19D2BA11C47A4EE713F____IsFixed_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[0];
+		DefaultValueAttribute__ctor_m78FFD0C313E546C33C761F79E544E6FA5ADCB4D0(tmp, false, NULL);
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[1];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x66\x69\x78\x65\x64"), NULL);
 	}
 }
 static void XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_CustomAttributesCacheGenerator_None(CustomAttributesCache* cache)
@@ -2360,7 +3862,264 @@ static void XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_CustomAttrib
 		XmlEnumAttribute__ctor_mF7FBA354F3ED12CB8B64B19A1A798C5F290916D2(tmp, il2cpp_codegen_string_new_wrapper("\x75\x6E\x71\x75\x61\x6C\x69\x66\x69\x65\x64"), NULL);
 	}
 }
+static void XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____Name_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65"), NULL);
+	}
+}
+static void XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____Particle_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x71\x75\x65\x6E\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x68\x6F\x69\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6C\x6C"), il2cpp_codegen_type_get_object(XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____QualifiedName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____CanonicalParticle_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____Redefined_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____SelfReferenceCount_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____NameAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
 static void XmlSchemaGroupBase_tBB7F26134C0D82EA71D1773C84856397919DD5DA_CustomAttributesCacheGenerator_XmlSchemaGroupBase_tBB7F26134C0D82EA71D1773C84856397919DD5DA____Items_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_CustomAttributesCacheGenerator_XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA____RefName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x66"), NULL);
+	}
+}
+static void XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_CustomAttributesCacheGenerator_XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA____Particle_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_CustomAttributesCacheGenerator_XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA____Redefined_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____Name_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65"), NULL);
+	}
+}
+static void XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____Selector_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x6C\x65\x63\x74\x6F\x72"), il2cpp_codegen_type_get_object(XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____Fields_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x66\x69\x65\x6C\x64"), il2cpp_codegen_type_get_object(XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____QualifiedName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____CompiledConstraint_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____NameAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43_CustomAttributesCacheGenerator_XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43____XPath_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x78\x70\x61\x74\x68"), NULL);
+	}
+	{
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_m65DBADCDC3A7BBD4AA6871023D36B91FC1772ADF(tmp, il2cpp_codegen_string_new_wrapper(""), NULL);
+	}
+}
+static void XmlSchemaKeyref_t5E71D4256C27D47EB7DE7193C14FD1CD708C9A38_CustomAttributesCacheGenerator_XmlSchemaKeyref_t5E71D4256C27D47EB7DE7193C14FD1CD708C9A38____Refer_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x66\x65\x72"), NULL);
+	}
+}
+static void XmlSchemaImport_t2ED5DD15EB77A6B3A9A224EF9EDE1F19867763D6_CustomAttributesCacheGenerator_XmlSchemaImport_t2ED5DD15EB77A6B3A9A224EF9EDE1F19867763D6____Namespace_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65\x73\x70\x61\x63\x65"), NULL);
+		XmlAttributeAttribute_set_DataType_m617A124E8D1CE2F758634ABA2193F6E7FAE95037_inline(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x55\x52\x49"), NULL);
+	}
+}
+static void XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____Name_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65"), NULL);
+	}
+}
+static void XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____Public_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x70\x75\x62\x6C\x69\x63"), NULL);
+	}
+}
+static void XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____System_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x73\x79\x73\x74\x65\x6D"), NULL);
+	}
+}
+static void XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____QualifiedName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____NameAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____LineNumber_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____LinePosition_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____SourceUri_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____Parent_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____Namespaces_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlNamespaceDeclarationsAttribute_t647F9C667C4A09EB4302FD0DD5F278FBC645869F * tmp = (XmlNamespaceDeclarationsAttribute_t647F9C667C4A09EB4302FD0DD5F278FBC645869F *)cache->attributes[0];
+		XmlNamespaceDeclarationsAttribute__ctor_m2A9D59059ABF39E5538FDE4EE6C880A4B6B5D368(tmp, NULL);
+	}
+}
+static void XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____IdAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____NameAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____IsProcessing_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
 		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
@@ -2372,6 +4131,27 @@ static void XmlSchemaObjectCollection_t2E22260F9979EB3890D8CB09473963FE616BF931_
 	{
 		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
 		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
+	}
+}
+static void XmlSchemaObjectTable_tFCEF8D48B790CE4EE4A7E4DCD54747B789A61AAA_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 * tmp = (DefaultMemberAttribute_t8C9B3330DEA69EE364962477FF14FD2CFE30D4B5 *)cache->attributes[0];
+		DefaultMemberAttribute__ctor_mA025B6F5B3A9292696E01108027840C8DFF7F4D7(tmp, il2cpp_codegen_string_new_wrapper("\x49\x74\x65\x6D"), NULL);
+	}
+}
+static void XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789_CustomAttributesCacheGenerator_XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789____MinOccursString_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x4F\x63\x63\x75\x72\x73"), NULL);
+	}
+}
+static void XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789_CustomAttributesCacheGenerator_XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789____MaxOccursString_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x61\x78\x4F\x63\x63\x75\x72\x73"), NULL);
 	}
 }
 static void XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789_CustomAttributesCacheGenerator_XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789____MinOccurs_PropertyInfo(CustomAttributesCache* cache)
@@ -2393,6 +4173,60 @@ static void Occurs_tE1D41715FC55ECA460AB8AE9C68E39DF0ED1747F_CustomAttributesCac
 	{
 		FlagsAttribute_t511C558FACEF1CC64702A8FAB67CAF3CBA65DF36 * tmp = (FlagsAttribute_t511C558FACEF1CC64702A8FAB67CAF3CBA65DF36 *)cache->attributes[0];
 		FlagsAttribute__ctor_mE8DCBA1BE0E6B0424FEF5E5F249733CF6A0E1229(tmp, NULL);
+	}
+}
+static void XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_CustomAttributesCacheGenerator_XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D____Items_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x6E\x6F\x74\x61\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x67\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x63\x6F\x6D\x70\x6C\x65\x78\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[3];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x69\x6D\x70\x6C\x65\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[4];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x47\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_CustomAttributesCacheGenerator_XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D____AttributeGroups_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_CustomAttributesCacheGenerator_XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D____SchemaTypes_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_CustomAttributesCacheGenerator_XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D____Groups_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
 	}
 }
 static void XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_CustomAttributesCacheGenerator_XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03____Items_PropertyInfo(CustomAttributesCache* cache)
@@ -2428,6 +4262,169 @@ static void XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_CustomAt
 		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x65\x71\x75\x65\x6E\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_0_0_0_var), NULL);
 	}
 }
+static void XmlSchemaSimpleContent_t198EB18852BF3F3AA48C0085CFAEDB02DB3F5DC5_CustomAttributesCacheGenerator_XmlSchemaSimpleContent_t198EB18852BF3F3AA48C0085CFAEDB02DB3F5DC5____Content_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x73\x74\x72\x69\x63\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x65\x78\x74\x65\x6E\x73\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_CustomAttributesCacheGenerator_XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF____BaseTypeName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x73\x65"), NULL);
+	}
+}
+static void XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_CustomAttributesCacheGenerator_XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF____Attributes_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x47\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65"), il2cpp_codegen_type_get_object(XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_CustomAttributesCacheGenerator_XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF____AnyAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m434F875F0651AD028C2EE19262CA0576A98B8381(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x41\x74\x74\x72\x69\x62\x75\x74\x65"), NULL);
+	}
+}
+static void XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____BaseTypeName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x73\x65"), NULL);
+	}
+}
+static void XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____BaseType_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x69\x6D\x70\x6C\x65\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____Facets_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaEnumerationFacet_t4B67F47457E07D2FB2A01454CE8D354D674B7B88_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaFractionDigitsFacet_t9136AA57D3160759DF463F84901DAEAD5BFC666C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaLengthFacet_tCA12B6997BF51E6AA7E49138C20C6C0FF7678434_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMaxExclusiveFacet_t01518FA341121E0D979EE7FFFEE0CED334CC5804_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMaxInclusiveFacet_t7FD0BE7115B3D437E650654CAEE6F10C1ACF3548_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMaxLengthFacet_t4572572CCF8C1AA3D5BE3A2194F0671746FFEE81_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMinExclusiveFacet_t71B6F90C1181D3FFEB0A7F578426DB433AED3100_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMinInclusiveFacet_t73F26B6FD7F6976A56CB82615D6BA35D5ECD2284_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMinLengthFacet_t2DB09C7D11D25F86CEB19ED5A0373CCB4E534BBF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaPatternFacet_t4B0DD650C87F804406E906E929F622AD1EEC5193_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaTotalDigitsFacet_t60E02B9A2116FE90A8BBE3837A4A59FA0EC19426_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaWhiteSpaceFacet_t56A22CBA1FF488041B8183E187DD8099DE0889E6_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x61\x78\x4C\x65\x6E\x67\x74\x68"), il2cpp_codegen_type_get_object(XmlSchemaMaxLengthFacet_t4572572CCF8C1AA3D5BE3A2194F0671746FFEE81_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x61\x78\x49\x6E\x63\x6C\x75\x73\x69\x76\x65"), il2cpp_codegen_type_get_object(XmlSchemaMaxInclusiveFacet_t7FD0BE7115B3D437E650654CAEE6F10C1ACF3548_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x66\x72\x61\x63\x74\x69\x6F\x6E\x44\x69\x67\x69\x74\x73"), il2cpp_codegen_type_get_object(XmlSchemaFractionDigitsFacet_t9136AA57D3160759DF463F84901DAEAD5BFC666C_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[3];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x61\x78\x45\x78\x63\x6C\x75\x73\x69\x76\x65"), il2cpp_codegen_type_get_object(XmlSchemaMaxExclusiveFacet_t01518FA341121E0D979EE7FFFEE0CED334CC5804_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[4];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x74\x6F\x74\x61\x6C\x44\x69\x67\x69\x74\x73"), il2cpp_codegen_type_get_object(XmlSchemaTotalDigitsFacet_t60E02B9A2116FE90A8BBE3837A4A59FA0EC19426_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[5];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x45\x78\x63\x6C\x75\x73\x69\x76\x65"), il2cpp_codegen_type_get_object(XmlSchemaMinExclusiveFacet_t71B6F90C1181D3FFEB0A7F578426DB433AED3100_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[6];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x49\x6E\x63\x6C\x75\x73\x69\x76\x65"), il2cpp_codegen_type_get_object(XmlSchemaMinInclusiveFacet_t73F26B6FD7F6976A56CB82615D6BA35D5ECD2284_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[7];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x77\x68\x69\x74\x65\x53\x70\x61\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaWhiteSpaceFacet_t56A22CBA1FF488041B8183E187DD8099DE0889E6_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[8];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6E\x75\x6D\x65\x72\x61\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaEnumerationFacet_t4B67F47457E07D2FB2A01454CE8D354D674B7B88_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[9];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x70\x61\x74\x74\x65\x72\x6E"), il2cpp_codegen_type_get_object(XmlSchemaPatternFacet_t4B0DD650C87F804406E906E929F622AD1EEC5193_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[10];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x6E\x67\x74\x68"), il2cpp_codegen_type_get_object(XmlSchemaLengthFacet_tCA12B6997BF51E6AA7E49138C20C6C0FF7678434_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[11];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x4C\x65\x6E\x67\x74\x68"), il2cpp_codegen_type_get_object(XmlSchemaMinLengthFacet_t2DB09C7D11D25F86CEB19ED5A0373CCB4E534BBF_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____Attributes_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65\x47\x72\x6F\x75\x70"), il2cpp_codegen_type_get_object(XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x61\x74\x74\x72\x69\x62\x75\x74\x65"), il2cpp_codegen_type_get_object(XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____AnyAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m434F875F0651AD028C2EE19262CA0576A98B8381(tmp, il2cpp_codegen_string_new_wrapper("\x61\x6E\x79\x41\x74\x74\x72\x69\x62\x75\x74\x65"), NULL);
+	}
+}
 static void XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_CustomAttributesCacheGenerator_XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C____Content_PropertyInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2440,15 +4437,22 @@ static void XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_Custom
 	}
 	{
 		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
-		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x73\x74\x72\x69\x63\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C_0_0_0_var), NULL);
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x69\x73\x74"), il2cpp_codegen_type_get_object(XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD_0_0_0_var), NULL);
 	}
 	{
 		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
-		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x69\x73\x74"), il2cpp_codegen_type_get_object(XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD_0_0_0_var), NULL);
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x73\x74\x72\x69\x63\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C_0_0_0_var), NULL);
 	}
 	{
 		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
 		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x75\x6E\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD____ItemTypeName_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x69\x74\x65\x6D\x54\x79\x70\x65"), NULL);
 	}
 }
 static void XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD____ItemType_PropertyInfo(CustomAttributesCache* cache)
@@ -2478,6 +4482,160 @@ static void XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853
 		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x62\x61\x73\x65"), NULL);
 	}
 }
+static void XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C____BaseType_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x69\x6D\x70\x6C\x65\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C____Facets_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaEnumerationFacet_t4B67F47457E07D2FB2A01454CE8D354D674B7B88_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaFractionDigitsFacet_t9136AA57D3160759DF463F84901DAEAD5BFC666C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaLengthFacet_tCA12B6997BF51E6AA7E49138C20C6C0FF7678434_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMaxExclusiveFacet_t01518FA341121E0D979EE7FFFEE0CED334CC5804_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMaxInclusiveFacet_t7FD0BE7115B3D437E650654CAEE6F10C1ACF3548_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMaxLengthFacet_t4572572CCF8C1AA3D5BE3A2194F0671746FFEE81_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMinExclusiveFacet_t71B6F90C1181D3FFEB0A7F578426DB433AED3100_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMinInclusiveFacet_t73F26B6FD7F6976A56CB82615D6BA35D5ECD2284_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaMinLengthFacet_t2DB09C7D11D25F86CEB19ED5A0373CCB4E534BBF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaPatternFacet_t4B0DD650C87F804406E906E929F622AD1EEC5193_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaTotalDigitsFacet_t60E02B9A2116FE90A8BBE3837A4A59FA0EC19426_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaWhiteSpaceFacet_t56A22CBA1FF488041B8183E187DD8099DE0889E6_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x45\x78\x63\x6C\x75\x73\x69\x76\x65"), il2cpp_codegen_type_get_object(XmlSchemaMinExclusiveFacet_t71B6F90C1181D3FFEB0A7F578426DB433AED3100_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[1];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x66\x72\x61\x63\x74\x69\x6F\x6E\x44\x69\x67\x69\x74\x73"), il2cpp_codegen_type_get_object(XmlSchemaFractionDigitsFacet_t9136AA57D3160759DF463F84901DAEAD5BFC666C_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[2];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x77\x68\x69\x74\x65\x53\x70\x61\x63\x65"), il2cpp_codegen_type_get_object(XmlSchemaWhiteSpaceFacet_t56A22CBA1FF488041B8183E187DD8099DE0889E6_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[3];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x49\x6E\x63\x6C\x75\x73\x69\x76\x65"), il2cpp_codegen_type_get_object(XmlSchemaMinInclusiveFacet_t73F26B6FD7F6976A56CB82615D6BA35D5ECD2284_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[4];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x61\x78\x45\x78\x63\x6C\x75\x73\x69\x76\x65"), il2cpp_codegen_type_get_object(XmlSchemaMaxExclusiveFacet_t01518FA341121E0D979EE7FFFEE0CED334CC5804_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[5];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x61\x78\x49\x6E\x63\x6C\x75\x73\x69\x76\x65"), il2cpp_codegen_type_get_object(XmlSchemaMaxInclusiveFacet_t7FD0BE7115B3D437E650654CAEE6F10C1ACF3548_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[6];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x65\x6E\x75\x6D\x65\x72\x61\x74\x69\x6F\x6E"), il2cpp_codegen_type_get_object(XmlSchemaEnumerationFacet_t4B67F47457E07D2FB2A01454CE8D354D674B7B88_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[7];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x74\x6F\x74\x61\x6C\x44\x69\x67\x69\x74\x73"), il2cpp_codegen_type_get_object(XmlSchemaTotalDigitsFacet_t60E02B9A2116FE90A8BBE3837A4A59FA0EC19426_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[8];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x61\x78\x4C\x65\x6E\x67\x74\x68"), il2cpp_codegen_type_get_object(XmlSchemaMaxLengthFacet_t4572572CCF8C1AA3D5BE3A2194F0671746FFEE81_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[9];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x69\x6E\x4C\x65\x6E\x67\x74\x68"), il2cpp_codegen_type_get_object(XmlSchemaMinLengthFacet_t2DB09C7D11D25F86CEB19ED5A0373CCB4E534BBF_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[10];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x6C\x65\x6E\x67\x74\x68"), il2cpp_codegen_type_get_object(XmlSchemaLengthFacet_tCA12B6997BF51E6AA7E49138C20C6C0FF7678434_0_0_0_var), NULL);
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[11];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x70\x61\x74\x74\x65\x72\x6E"), il2cpp_codegen_type_get_object(XmlSchemaPatternFacet_t4B0DD650C87F804406E906E929F622AD1EEC5193_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5____BaseTypes_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 * tmp = (XmlElementAttribute_t1D20EF830E8F66F43BBDCEB96611CD9233154A94 *)cache->attributes[0];
+		XmlElementAttribute__ctor_m012F146BFD5AC0449C0270DB7C5699EA3C60BB1F(tmp, il2cpp_codegen_string_new_wrapper("\x73\x69\x6D\x70\x6C\x65\x54\x79\x70\x65"), il2cpp_codegen_type_get_object(XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_0_0_0_var), NULL);
+	}
+}
+static void XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5____MemberTypes_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6D\x65\x6D\x62\x65\x72\x54\x79\x70\x65\x73"), NULL);
+	}
+}
+static void XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5____BaseMemberTypes_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaSubstitutionGroup_tA488FD6EEB4851B20F2F2BFB106CA36C64327AD2_CustomAttributesCacheGenerator_XmlSchemaSubstitutionGroup_tA488FD6EEB4851B20F2F2BFB106CA36C64327AD2____Members_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaSubstitutionGroup_tA488FD6EEB4851B20F2F2BFB106CA36C64327AD2_CustomAttributesCacheGenerator_XmlSchemaSubstitutionGroup_tA488FD6EEB4851B20F2F2BFB106CA36C64327AD2____Examplar_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaSubstitutionGroupV1Compat_tE906C21A8AC0B10A23A7A2D9F3E8100D6146D13B_CustomAttributesCacheGenerator_XmlSchemaSubstitutionGroupV1Compat_tE906C21A8AC0B10A23A7A2D9F3E8100D6146D13B____Choice_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____Name_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x6E\x61\x6D\x65"), NULL);
+	}
+}
+static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____Final_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 * tmp = (XmlAttributeAttribute_t96949A5112ABB51E8AEB77CE3A43AF5EB44F5647 *)cache->attributes[0];
+		XmlAttributeAttribute__ctor_m3C9FC780C480AB65FAA249FC66806584C8D80749(tmp, il2cpp_codegen_string_new_wrapper("\x66\x69\x6E\x61\x6C"), NULL);
+	}
+	{
+		int32_t _tmp_0 = 256;
+		DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 * tmp = (DefaultValueAttribute_tE77EAC79E16838DAE97DB0981C95B0E320DD8EC6 *)cache->attributes[1];
+		DefaultValueAttribute__ctor_mA4501ED4B6011A422D55EBE09A4AC3A1FAD83C13(tmp, Box(XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_il2cpp_TypeInfo_var, &_tmp_0), NULL);
+	}
+}
 static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____QualifiedName_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
@@ -2485,7 +4643,21 @@ static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttrib
 		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
 	}
 }
+static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____FinalResolved_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
 static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____BaseXmlSchemaType_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____DerivedBy_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
 		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
@@ -2520,6 +4692,48 @@ static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttrib
 		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
 	}
 }
+static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____Redefined_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____NameAttribute_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_CustomAttributesCacheGenerator_None(CustomAttributesCache* cache)
+{
+	{
+		XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 * tmp = (XmlIgnoreAttribute_t478DB7B508B6987B3CC531BABD12177E5CD7DDF6 *)cache->attributes[0];
+		XmlIgnoreAttribute__ctor_m7AEADBFECEDFB68758E77C889675A03D4BDA5908(tmp, NULL);
+	}
+}
+static void XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_CustomAttributesCacheGenerator_Optional(CustomAttributesCache* cache)
+{
+	{
+		XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E * tmp = (XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E *)cache->attributes[0];
+		XmlEnumAttribute__ctor_mF7FBA354F3ED12CB8B64B19A1A798C5F290916D2(tmp, il2cpp_codegen_string_new_wrapper("\x6F\x70\x74\x69\x6F\x6E\x61\x6C"), NULL);
+	}
+}
+static void XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_CustomAttributesCacheGenerator_Prohibited(CustomAttributesCache* cache)
+{
+	{
+		XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E * tmp = (XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E *)cache->attributes[0];
+		XmlEnumAttribute__ctor_mF7FBA354F3ED12CB8B64B19A1A798C5F290916D2(tmp, il2cpp_codegen_string_new_wrapper("\x70\x72\x6F\x68\x69\x62\x69\x74\x65\x64"), NULL);
+	}
+}
+static void XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_CustomAttributesCacheGenerator_Required(CustomAttributesCache* cache)
+{
+	{
+		XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E * tmp = (XmlEnumAttribute_tB7AB030D43502B1DEE005D647CC82265AFFE4D6E *)cache->attributes[0];
+		XmlEnumAttribute__ctor_mF7FBA354F3ED12CB8B64B19A1A798C5F290916D2(tmp, il2cpp_codegen_string_new_wrapper("\x72\x65\x71\x75\x69\x72\x65\x64"), NULL);
+	}
+}
 static void XmlSchemaValidationFlags_tF0C150CF8BCED7131D6163452E106FBC5B7BBBA8_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -2541,6 +4755,13 @@ static void XmlReaderSection_t7E5D39D2B2159A62B1B563E3777800AC6EF7C69E_CustomAtt
 		EditorBrowsableAttribute__ctor_mC77290C5157BDA154F1D03BD1551223B07A851D4(tmp, 1LL, NULL);
 	}
 }
+static void StringConcat_t313CCAA6C94520A80805790FEC5864DFD57DAD36_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		EditorBrowsableAttribute_tE201891FE727EB3FB75B488A2BF6D4DF3CB80614 * tmp = (EditorBrowsableAttribute_tE201891FE727EB3FB75B488A2BF6D4DF3CB80614 *)cache->attributes[0];
+		EditorBrowsableAttribute__ctor_mC77290C5157BDA154F1D03BD1551223B07A851D4(tmp, 1LL, NULL);
+	}
+}
 static void U3CPrivateImplementationDetailsU3E_tAA330E6B4295DC1363094EDE988D3B524C40486E_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -2549,18 +4770,24 @@ static void U3CPrivateImplementationDetailsU3E_tAA330E6B4295DC1363094EDE988D3B52
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_System_Xml_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_System_Xml_AttributeGenerators[114] = 
+const CustomAttributesCacheGenerator g_System_Xml_AttributeGenerators[310] = 
 {
 	Query_tA8096C7914789E59DF6C340BE3380CF2511F6A06_CustomAttributesCacheGenerator,
 	XPathArrayIterator_t41CCD996703BA681E5D54A8504BA08455CE417DD_CustomAttributesCacheGenerator,
 	MonoTODOAttribute_tF8137E40759566B832E7E9EC86E2C824085A7F47_CustomAttributesCacheGenerator,
+	AsyncHelper_t5BBA4E723AFA5229BD866D2ED5EFB1F2590C5EB2_CustomAttributesCacheGenerator,
+	NamespaceHandling_t7974F9A117390EC627D6C12EB7219594674ADC80_CustomAttributesCacheGenerator,
+	XmlAsyncCheckReader_tD0429D7F2F5302F1590B6D74DE9165BB622D5036_CustomAttributesCacheGenerator,
 	XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138_CustomAttributesCacheGenerator,
 	XmlTextReader_t45FF43659BDA44EC96F8CEE164A3CA74548C39F5_CustomAttributesCacheGenerator,
 	XmlTextWriter_t2CC07B7AAF1DF89CE65E7782EBC8CA1BB179DAD2_CustomAttributesCacheGenerator,
+	XmlValidatingReader_t54F6E2AD9A5405BCF694091CEB60EEC30323E659_CustomAttributesCacheGenerator,
+	XsdCachingReader_tBFD2DD7C1AC298C42EDBD6B67F6619A3536FB197_CustomAttributesCacheGenerator,
 	XmlAttributeCollection_tDC800F98FE32D4723967772453EB600D1C368AA3_CustomAttributesCacheGenerator,
 	SmallXmlNodeList_tACC052857127163828121C4ED4874E07C8D1CEEE_CustomAttributesCacheGenerator,
 	XmlNode_t26782CDADA207DFC891B2772C8DB236DD3D324A1_CustomAttributesCacheGenerator,
 	XmlNodeList_t1DBBA2CC948CC6631BC33AA7405E11C8105E6EE9_CustomAttributesCacheGenerator,
+	HWStack_t1265FA4E1AC6B95F7F1894A4FDF930F428590BD3_CustomAttributesCacheGenerator,
 	U3CU3Ec__DisplayClass4_0_t1CB18D171B35CF191BC6883D5C7E384F9F137C0B_CustomAttributesCacheGenerator,
 	U3CGetNonFileStreamAsyncU3Ed__5_t3C3436560486693053CFE79D503DE114BD57F782_CustomAttributesCacheGenerator,
 	U3CGetEntityAsyncU3Ed__15_t20AEFF2EBE2252FD1B094E4F290D7BD745CFF218_CustomAttributesCacheGenerator,
@@ -2590,16 +4817,20 @@ const CustomAttributesCacheGenerator g_System_Xml_AttributeGenerators[114] =
 	XmlTextAttribute_t913812A9EC84D070AA3006B1773A6ABC303A5C4E_CustomAttributesCacheGenerator,
 	XmlTypeAttribute_t8CF0FDD3A7F093717D676F94868FE9ABFB689800_CustomAttributesCacheGenerator,
 	BitSet_t36CD5E21CDE8972A6BCEF9E414933DD893966438_CustomAttributesCacheGenerator,
+	KeySequence_t08AA6838D11962D7B7054DC2059A94B24317EE10_CustomAttributesCacheGenerator,
 	SymbolsDictionary_tC502F0D6AE462F83D106895089A819B184ADFBDF_CustomAttributesCacheGenerator,
 	Positions_t577D66E21F674149C5A3E68851CE88B94C37248F_CustomAttributesCacheGenerator,
 	RestrictionFlags_tE688E3FE50199CFC0DE7B02A59EA18DF59B8A025_CustomAttributesCacheGenerator,
 	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator,
+	XmlSchemaCollection_tBC27DD21E5D0EDB426B83DBD3C82A6A902D19632_CustomAttributesCacheGenerator,
 	XmlSchemaDerivationMethod_tB960EB54D0A380C43B2EA296A17718B629BBD20E_CustomAttributesCacheGenerator,
 	XmlSchemaObjectCollection_t2E22260F9979EB3890D8CB09473963FE616BF931_CustomAttributesCacheGenerator,
+	XmlSchemaObjectTable_tFCEF8D48B790CE4EE4A7E4DCD54747B789A61AAA_CustomAttributesCacheGenerator,
 	Occurs_tE1D41715FC55ECA460AB8AE9C68E39DF0ED1747F_CustomAttributesCacheGenerator,
 	XmlSchemaValidationFlags_tF0C150CF8BCED7131D6163452E106FBC5B7BBBA8_CustomAttributesCacheGenerator,
 	XsdDateTimeFlags_tA0CFF619A2C537BD8E65672DA641CF4B2405156C_CustomAttributesCacheGenerator,
 	XmlReaderSection_t7E5D39D2B2159A62B1B563E3777800AC6EF7C69E_CustomAttributesCacheGenerator,
+	StringConcat_t313CCAA6C94520A80805790FEC5864DFD57DAD36_CustomAttributesCacheGenerator,
 	U3CPrivateImplementationDetailsU3E_tAA330E6B4295DC1363094EDE988D3B524C40486E_CustomAttributesCacheGenerator,
 	ValidationType_t588D32514C11D985F976526F7E3C81ABD1D27EBA_CustomAttributesCacheGenerator_Auto,
 	ValidationType_t588D32514C11D985F976526F7E3C81ABD1D27EBA_CustomAttributesCacheGenerator_XDR,
@@ -2621,8 +4852,13 @@ const CustomAttributesCacheGenerator g_System_Xml_AttributeGenerators[114] =
 	XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_CustomAttributesCacheGenerator_None,
 	XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_CustomAttributesCacheGenerator_Qualified,
 	XmlSchemaForm_tAFA037CC98C760F6686439643387677185EC9D91_CustomAttributesCacheGenerator_Unqualified,
+	XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_CustomAttributesCacheGenerator_None,
+	XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_CustomAttributesCacheGenerator_Optional,
+	XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_CustomAttributesCacheGenerator_Prohibited,
+	XmlSchemaUse_tD8F97F810BC84E92E4DE6609566B0C9D8A109EF4_CustomAttributesCacheGenerator_Required,
 	XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138_CustomAttributesCacheGenerator_XmlReader_ReadString_m255F5AF3C9D14005A77253EBB14474663043488E,
 	XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138_CustomAttributesCacheGenerator_XmlReader_ReadElementString_mDDFE64D2E95F74A6C7C68C3772DC043BA27F402E,
+	XmlReaderSettings_tD1257418720567D67A7C49A7498914FE937F1520_CustomAttributesCacheGenerator_XmlReaderSettings_get_IsXmlResolverSet_m3D2A72FE56F5AF6C85D79B3AA465234F89E869F4,
 	XmlReaderSettings_tD1257418720567D67A7C49A7498914FE937F1520_CustomAttributesCacheGenerator_XmlReaderSettings_set_IsXmlResolverSet_m4374404167E732ADF4FF5D5699DA1A2763B4A048,
 	XmlConvert_t5D0BE0A0EE15E2D3EC7F4881C519B5137DFA370A_CustomAttributesCacheGenerator_XmlConvert_ToString_m4641C988539C8EB17C589761E674B9521EEA62E5,
 	XmlConvert_t5D0BE0A0EE15E2D3EC7F4881C519B5137DFA370A_CustomAttributesCacheGenerator_XmlConvert_ToString_m9823FE7E80D23F2111BD7D6861C59A79EF70E9CC,
@@ -2638,32 +4874,213 @@ const CustomAttributesCacheGenerator g_System_Xml_AttributeGenerators[114] =
 	XmlUrlResolver_t341613B5C62E06DC2382255E0AE4D763AD302AE1_CustomAttributesCacheGenerator_XmlUrlResolver_GetEntityAsync_m0D4B74C681DFBA67E92DF4AA341447F062CB256F,
 	U3CGetEntityAsyncU3Ed__15_t20AEFF2EBE2252FD1B094E4F290D7BD745CFF218_CustomAttributesCacheGenerator_U3CGetEntityAsyncU3Ed__15_SetStateMachine_m9A31F8EDD492D50FFA4F9FCC8F0FBAD9DD1D3E93,
 	XmlTypeConvertorAttribute_t9C029CB7A95EE9E3BAFFCB8DA5174C0364DA1D4E_CustomAttributesCacheGenerator_XmlTypeConvertorAttribute_get_Method_mE95367532E96E4E4709DEFE87C3DA2985255BCED,
+	XmlTypeConvertorAttribute_t9C029CB7A95EE9E3BAFFCB8DA5174C0364DA1D4E_CustomAttributesCacheGenerator_XmlTypeConvertorAttribute_set_Method_mC01F1A24104F47A6DA6F8CADDCE9CA57D8552283,
 	SR_t18DDAC0A0AC9B7F52E81CFEC14051580FFAAB957_CustomAttributesCacheGenerator_SR_GetString_m846F567D256240B005CADDBE65D4793920B6474E____args1,
 	SR_t18DDAC0A0AC9B7F52E81CFEC14051580FFAAB957_CustomAttributesCacheGenerator_SR_GetString_m6B94153BBBDF13B55321A1E0290B6E82FC8AD248____args2,
 	Res_t8707C30091CC714404BA967631E1F74B8ACBB1E4_CustomAttributesCacheGenerator_Res_GetString_m1D06B81901B03CA849045926741403907612BB4B____args1,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____AttributeFormDefault_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____BlockDefault_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____FinalDefault_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____ElementFormDefault_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____TargetNamespace_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Version_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Includes_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Items_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IsCompiledBySet_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IsPreprocessed_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IsRedefined_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Attributes_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____AttributeGroups_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____SchemaTypes_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Elements_PropertyInfo,
 	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Id_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Groups_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Notations_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IdentityConstraints_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____BaseUri_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____SchemaId_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IsChameleon_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Ids_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____Document_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____ErrorCount_PropertyInfo,
+	XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA_CustomAttributesCacheGenerator_XmlSchema_tD7A55716109AE793DA16441CC1A949F04E573CEA____IdAttribute_PropertyInfo,
+	XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF_CustomAttributesCacheGenerator_XmlSchemaAll_t159520224B7F0AB592AE686FFB4A53A6043390FF____Items_PropertyInfo,
+	XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7_CustomAttributesCacheGenerator_XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7____Id_PropertyInfo,
+	XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7_CustomAttributesCacheGenerator_XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7____Annotation_PropertyInfo,
+	XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7_CustomAttributesCacheGenerator_XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7____UnhandledAttributes_PropertyInfo,
+	XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7_CustomAttributesCacheGenerator_XmlSchemaAnnotated_t68F13E739330186883290FF723E752BD26F2E3A7____IdAttribute_PropertyInfo,
+	XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_CustomAttributesCacheGenerator_XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92____Id_PropertyInfo,
+	XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_CustomAttributesCacheGenerator_XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92____Items_PropertyInfo,
+	XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92_CustomAttributesCacheGenerator_XmlSchemaAnnotation_t1B464A4E48B22C4098BE601D7C0EBB44D8492E92____IdAttribute_PropertyInfo,
+	XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____Namespace_PropertyInfo,
 	XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____ProcessContents_PropertyInfo,
 	XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____NamespaceList_PropertyInfo,
+	XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____ResolvedNamespace_PropertyInfo,
+	XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C_CustomAttributesCacheGenerator_XmlSchemaAny_t30CEED9ED80E3CB00EA10233A22CA552F49D7A1C____ProcessContentsCorrect_PropertyInfo,
+	XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_CustomAttributesCacheGenerator_XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80____Namespace_PropertyInfo,
 	XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_CustomAttributesCacheGenerator_XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80____ProcessContents_PropertyInfo,
+	XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_CustomAttributesCacheGenerator_XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80____NamespaceList_PropertyInfo,
+	XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80_CustomAttributesCacheGenerator_XmlSchemaAnyAttribute_tD2ED36B036CE620025BC00B0618D7B746A3A4A80____ProcessContentsCorrect_PropertyInfo,
+	XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED_CustomAttributesCacheGenerator_XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED____Source_PropertyInfo,
+	XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED_CustomAttributesCacheGenerator_XmlSchemaAppInfo_t0CFD975A50A604DD9C55B09A2D901C9D09FA4DED____Markup_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____DefaultValue_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____FixedValue_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____Form_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____Name_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____RefName_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____SchemaTypeName_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____SchemaType_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____Use_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____QualifiedName_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____AttributeSchemaType_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____Datatype_PropertyInfo,
+	XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7_CustomAttributesCacheGenerator_XmlSchemaAttribute_t2EB9DF55F6A28F15681A8E56140568B049AFD7F7____NameAttribute_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____Name_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____Attributes_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____AnyAttribute_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____QualifiedName_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____AttributeUses_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____AttributeWildcard_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____RedefinedAttributeGroup_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____Redefined_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____SelfReferenceCount_PropertyInfo,
+	XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676_CustomAttributesCacheGenerator_XmlSchemaAttributeGroup_tB9215D09AD1DC537A59AE60158B03293E2769676____NameAttribute_PropertyInfo,
+	XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848_CustomAttributesCacheGenerator_XmlSchemaAttributeGroupRef_t4D52AF199F137807C38D44CDD934ABD168F5B848____RefName_PropertyInfo,
 	XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0_CustomAttributesCacheGenerator_XmlSchemaChoice_t8FC6F8DB238E8800F350E4EF88CCECD64B5D3BF0____Items_PropertyInfo,
+	XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_CustomAttributesCacheGenerator_XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4____IsMixed_PropertyInfo,
+	XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_CustomAttributesCacheGenerator_XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4____Content_PropertyInfo,
+	XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4_CustomAttributesCacheGenerator_XmlSchemaComplexContent_t3FA39333202A0E93568DF1514DBAFCBEFB29C2F4____HasMixedAttribute_PropertyInfo,
+	XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_CustomAttributesCacheGenerator_XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199____BaseTypeName_PropertyInfo,
+	XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_CustomAttributesCacheGenerator_XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199____Particle_PropertyInfo,
+	XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_CustomAttributesCacheGenerator_XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199____Attributes_PropertyInfo,
+	XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199_CustomAttributesCacheGenerator_XmlSchemaComplexContentExtension_t851E353CCF66DD17A4E939E2106785B285157199____AnyAttribute_PropertyInfo,
+	XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_CustomAttributesCacheGenerator_XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE____BaseTypeName_PropertyInfo,
+	XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_CustomAttributesCacheGenerator_XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE____Particle_PropertyInfo,
+	XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_CustomAttributesCacheGenerator_XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE____Attributes_PropertyInfo,
+	XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE_CustomAttributesCacheGenerator_XmlSchemaComplexContentRestriction_t4AAF4D35B4B10DA91678318213300875B0BCC8CE____AnyAttribute_PropertyInfo,
 	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____AnyType_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____UntypedAnyType_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____IsAbstract_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____Block_PropertyInfo,
 	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____IsMixed_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____ContentModel_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____Particle_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____Attributes_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____AnyAttribute_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____ContentType_PropertyInfo,
 	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____ContentTypeParticle_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____BlockResolved_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____AttributeUses_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____AttributeWildcard_PropertyInfo,
+	XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062_CustomAttributesCacheGenerator_XmlSchemaComplexType_tE6F9E57AB3C89D88DAB166F1F0A3EC2276C2F062____LocalElements_PropertyInfo,
+	XmlSchemaContentModel_t3F6A4591307B97FB9B51D9300B1563880EB56EF0_CustomAttributesCacheGenerator_XmlSchemaContentModel_t3F6A4591307B97FB9B51D9300B1563880EB56EF0____Content_PropertyInfo,
+	XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_CustomAttributesCacheGenerator_XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556____Source_PropertyInfo,
+	XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_CustomAttributesCacheGenerator_XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556____Language_PropertyInfo,
+	XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556_CustomAttributesCacheGenerator_XmlSchemaDocumentation_tF986B8493F782F6FCFF601ED6129936B13F76556____Markup_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____IsAbstract_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Block_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____DefaultValue_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Final_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____FixedValue_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Form_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Name_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____IsNillable_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____HasNillableAttribute_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____HasAbstractAttribute_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____RefName_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____SubstitutionGroup_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____SchemaTypeName_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____SchemaType_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____Constraints_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____QualifiedName_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____ElementSchemaType_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____BlockResolved_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____FinalResolved_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____NameAttribute_PropertyInfo,
+	XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A_CustomAttributesCacheGenerator_XmlSchemaElement_tB61A00A97A12A9B2620D005D0643B11EA1CA764A____NameString_PropertyInfo,
+	XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____SchemaLocation_PropertyInfo,
+	XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____Schema_PropertyInfo,
+	XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____Id_PropertyInfo,
+	XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____BaseUri_PropertyInfo,
+	XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3_CustomAttributesCacheGenerator_XmlSchemaExternal_t563230B1305CB38B7F0A9FCB3B7526A337F44BB3____IdAttribute_PropertyInfo,
 	XmlSchemaFacet_t573C0D6C490EC4BD2D0AF19D2BA11C47A4EE713F_CustomAttributesCacheGenerator_XmlSchemaFacet_t573C0D6C490EC4BD2D0AF19D2BA11C47A4EE713F____Value_PropertyInfo,
+	XmlSchemaFacet_t573C0D6C490EC4BD2D0AF19D2BA11C47A4EE713F_CustomAttributesCacheGenerator_XmlSchemaFacet_t573C0D6C490EC4BD2D0AF19D2BA11C47A4EE713F____IsFixed_PropertyInfo,
+	XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____Name_PropertyInfo,
+	XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____Particle_PropertyInfo,
+	XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____QualifiedName_PropertyInfo,
+	XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____CanonicalParticle_PropertyInfo,
+	XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____Redefined_PropertyInfo,
+	XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____SelfReferenceCount_PropertyInfo,
+	XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023_CustomAttributesCacheGenerator_XmlSchemaGroup_t6CFE833B0BAA713568D8983568F1431E6748C023____NameAttribute_PropertyInfo,
 	XmlSchemaGroupBase_tBB7F26134C0D82EA71D1773C84856397919DD5DA_CustomAttributesCacheGenerator_XmlSchemaGroupBase_tBB7F26134C0D82EA71D1773C84856397919DD5DA____Items_PropertyInfo,
+	XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_CustomAttributesCacheGenerator_XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA____RefName_PropertyInfo,
+	XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_CustomAttributesCacheGenerator_XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA____Particle_PropertyInfo,
+	XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA_CustomAttributesCacheGenerator_XmlSchemaGroupRef_t959C68547997BA04BD811BE970E18AD9C42A68DA____Redefined_PropertyInfo,
+	XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____Name_PropertyInfo,
+	XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____Selector_PropertyInfo,
+	XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____Fields_PropertyInfo,
+	XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____QualifiedName_PropertyInfo,
+	XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____CompiledConstraint_PropertyInfo,
+	XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30_CustomAttributesCacheGenerator_XmlSchemaIdentityConstraint_t5771BD0BDCD0F95D54EB762D518CCFD4D5C3FE30____NameAttribute_PropertyInfo,
+	XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43_CustomAttributesCacheGenerator_XmlSchemaXPath_t644AB23506A60D0DB39D2156B9C08C5713EBAC43____XPath_PropertyInfo,
+	XmlSchemaKeyref_t5E71D4256C27D47EB7DE7193C14FD1CD708C9A38_CustomAttributesCacheGenerator_XmlSchemaKeyref_t5E71D4256C27D47EB7DE7193C14FD1CD708C9A38____Refer_PropertyInfo,
+	XmlSchemaImport_t2ED5DD15EB77A6B3A9A224EF9EDE1F19867763D6_CustomAttributesCacheGenerator_XmlSchemaImport_t2ED5DD15EB77A6B3A9A224EF9EDE1F19867763D6____Namespace_PropertyInfo,
+	XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____Name_PropertyInfo,
+	XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____Public_PropertyInfo,
+	XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____System_PropertyInfo,
+	XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____QualifiedName_PropertyInfo,
+	XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79_CustomAttributesCacheGenerator_XmlSchemaNotation_t374B1FC9CACC42BAB350640EDE4FA859DDC05A79____NameAttribute_PropertyInfo,
+	XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____LineNumber_PropertyInfo,
+	XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____LinePosition_PropertyInfo,
+	XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____SourceUri_PropertyInfo,
+	XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____Parent_PropertyInfo,
+	XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____Namespaces_PropertyInfo,
+	XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____IdAttribute_PropertyInfo,
+	XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____NameAttribute_PropertyInfo,
+	XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3_CustomAttributesCacheGenerator_XmlSchemaObject_tD14BD548E370305745B6E1CAAF2572F1DBC7F3D3____IsProcessing_PropertyInfo,
+	XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789_CustomAttributesCacheGenerator_XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789____MinOccursString_PropertyInfo,
+	XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789_CustomAttributesCacheGenerator_XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789____MaxOccursString_PropertyInfo,
 	XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789_CustomAttributesCacheGenerator_XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789____MinOccurs_PropertyInfo,
 	XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789_CustomAttributesCacheGenerator_XmlSchemaParticle_tD1A5391DA6279C1028974DFA37BC68C91EFEE789____MaxOccurs_PropertyInfo,
+	XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_CustomAttributesCacheGenerator_XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D____Items_PropertyInfo,
+	XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_CustomAttributesCacheGenerator_XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D____AttributeGroups_PropertyInfo,
+	XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_CustomAttributesCacheGenerator_XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D____SchemaTypes_PropertyInfo,
+	XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D_CustomAttributesCacheGenerator_XmlSchemaRedefine_t59C86A32B53BAEA2F1B01E502FF830635094393D____Groups_PropertyInfo,
 	XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03_CustomAttributesCacheGenerator_XmlSchemaSequence_t6C94DB85E74779BE018C34D94204C037416E9C03____Items_PropertyInfo,
+	XmlSchemaSimpleContent_t198EB18852BF3F3AA48C0085CFAEDB02DB3F5DC5_CustomAttributesCacheGenerator_XmlSchemaSimpleContent_t198EB18852BF3F3AA48C0085CFAEDB02DB3F5DC5____Content_PropertyInfo,
+	XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_CustomAttributesCacheGenerator_XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF____BaseTypeName_PropertyInfo,
+	XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_CustomAttributesCacheGenerator_XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF____Attributes_PropertyInfo,
+	XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF_CustomAttributesCacheGenerator_XmlSchemaSimpleContentExtension_tA3D9D1AF8399A3EC0034C447C49BD6C0C1084ABF____AnyAttribute_PropertyInfo,
+	XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____BaseTypeName_PropertyInfo,
+	XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____BaseType_PropertyInfo,
+	XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____Facets_PropertyInfo,
+	XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____Attributes_PropertyInfo,
+	XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092_CustomAttributesCacheGenerator_XmlSchemaSimpleContentRestriction_t022EF69A8B02BAB7B4BF2FB50A19F5D960909092____AnyAttribute_PropertyInfo,
 	XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C_CustomAttributesCacheGenerator_XmlSchemaSimpleType_tC0ABB2E0CDA541FB1D3AAF14180DF86A4C25697C____Content_PropertyInfo,
+	XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD____ItemTypeName_PropertyInfo,
 	XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD____ItemType_PropertyInfo,
 	XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeList_t780D9B725F8CA7CBC555BD6BDDB5E3E02E67DCAD____BaseItemType_PropertyInfo,
 	XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C____BaseTypeName_PropertyInfo,
+	XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C____BaseType_PropertyInfo,
+	XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeRestriction_tA312855944C42464DF7E0C6F02214331C853945C____Facets_PropertyInfo,
+	XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5____BaseTypes_PropertyInfo,
+	XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5____MemberTypes_PropertyInfo,
+	XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5_CustomAttributesCacheGenerator_XmlSchemaSimpleTypeUnion_t691F14B83D42A700B03058B598646CDA7DF545F5____BaseMemberTypes_PropertyInfo,
+	XmlSchemaSubstitutionGroup_tA488FD6EEB4851B20F2F2BFB106CA36C64327AD2_CustomAttributesCacheGenerator_XmlSchemaSubstitutionGroup_tA488FD6EEB4851B20F2F2BFB106CA36C64327AD2____Members_PropertyInfo,
+	XmlSchemaSubstitutionGroup_tA488FD6EEB4851B20F2F2BFB106CA36C64327AD2_CustomAttributesCacheGenerator_XmlSchemaSubstitutionGroup_tA488FD6EEB4851B20F2F2BFB106CA36C64327AD2____Examplar_PropertyInfo,
+	XmlSchemaSubstitutionGroupV1Compat_tE906C21A8AC0B10A23A7A2D9F3E8100D6146D13B_CustomAttributesCacheGenerator_XmlSchemaSubstitutionGroupV1Compat_tE906C21A8AC0B10A23A7A2D9F3E8100D6146D13B____Choice_PropertyInfo,
+	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____Name_PropertyInfo,
+	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____Final_PropertyInfo,
 	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____QualifiedName_PropertyInfo,
+	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____FinalResolved_PropertyInfo,
 	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____BaseXmlSchemaType_PropertyInfo,
+	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____DerivedBy_PropertyInfo,
 	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____Datatype_PropertyInfo,
 	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____IsMixed_PropertyInfo,
 	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____TypeCode_PropertyInfo,
 	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____ValueConverter_PropertyInfo,
+	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____Redefined_PropertyInfo,
+	XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA_CustomAttributesCacheGenerator_XmlSchemaType_t390DB79F0EB746B12C400BD1897CDB9F3557FCBA____NameAttribute_PropertyInfo,
 	System_Xml_CustomAttributesCacheGenerator,
 };
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m8562196F90F3EBCEC23B5708EE0332842883C490_inline (RuntimeCompatibilityAttribute_tFF99AB2963098F9CBCD47A20D9FD3D51C17C1C80 * __this, bool ___value0, const RuntimeMethod* method)
@@ -2694,7 +5111,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XmlRootAttribute_set_Namespa
 {
 	{
 		String_t* L_0 = ___value0;
-		__this->set_ns_2(L_0);
+		__this->set_ns_3(L_0);
 		return;
 	}
 }

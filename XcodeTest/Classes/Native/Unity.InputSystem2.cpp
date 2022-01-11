@@ -26378,7 +26378,7 @@ IL_0198:
 			int64_t L_67 = V_10;
 			NullCheck(L_65);
 			String_t* L_68;
-			L_68 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_65, L_66, 0, ((int32_t)((int32_t)L_67)));
+			L_68 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_65, L_66, 0, ((int32_t)((int32_t)L_67)));
 			V_12 = L_68;
 		}
 

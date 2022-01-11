@@ -983,6 +983,36 @@ IL_001a:
 		return;
 	}
 }
+// System.Int64 UnityEngine.Analytics.AnalyticsSessionInfo::get_sessionId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t AnalyticsSessionInfo_get_sessionId_mEC7693B506475181EAF61503F82F033CCD020413 (const RuntimeMethod* method)
+{
+	typedef int64_t (*AnalyticsSessionInfo_get_sessionId_mEC7693B506475181EAF61503F82F033CCD020413_ftn) ();
+	static AnalyticsSessionInfo_get_sessionId_mEC7693B506475181EAF61503F82F033CCD020413_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AnalyticsSessionInfo_get_sessionId_mEC7693B506475181EAF61503F82F033CCD020413_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Analytics.AnalyticsSessionInfo::get_sessionId()");
+	int64_t icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
+// System.Int64 UnityEngine.Analytics.AnalyticsSessionInfo::get_sessionCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t AnalyticsSessionInfo_get_sessionCount_m099DAC8FA17F30B2986FA0D51009995432BDA608 (const RuntimeMethod* method)
+{
+	typedef int64_t (*AnalyticsSessionInfo_get_sessionCount_m099DAC8FA17F30B2986FA0D51009995432BDA608_ftn) ();
+	static AnalyticsSessionInfo_get_sessionCount_m099DAC8FA17F30B2986FA0D51009995432BDA608_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AnalyticsSessionInfo_get_sessionCount_m099DAC8FA17F30B2986FA0D51009995432BDA608_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Analytics.AnalyticsSessionInfo::get_sessionCount()");
+	int64_t icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
+// System.String UnityEngine.Analytics.AnalyticsSessionInfo::get_userId()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AnalyticsSessionInfo_get_userId_mBFF8929840DEA78DE52F5C9DF109EBAE686E39C7 (const RuntimeMethod* method)
+{
+	typedef String_t* (*AnalyticsSessionInfo_get_userId_mBFF8929840DEA78DE52F5C9DF109EBAE686E39C7_ftn) ();
+	static AnalyticsSessionInfo_get_userId_mBFF8929840DEA78DE52F5C9DF109EBAE686E39C7_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AnalyticsSessionInfo_get_userId_mBFF8929840DEA78DE52F5C9DF109EBAE686E39C7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Analytics.AnalyticsSessionInfo::get_userId()");
+	String_t* icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
 // System.Void UnityEngine.Analytics.AnalyticsSessionInfo::CallIdentityTokenChanged(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnalyticsSessionInfo_CallIdentityTokenChanged_m99E4FA7768A4EF033190C28E87A480DDFA67FEF2 (String_t* ___token0, const RuntimeMethod* method)
 {

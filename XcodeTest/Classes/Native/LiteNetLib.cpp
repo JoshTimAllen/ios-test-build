@@ -17463,7 +17463,7 @@ IL_0017:
 		int32_t L_8 = V_0;
 		NullCheck(L_5);
 		int32_t L_9;
-		L_9 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(21 /* System.Int32 System.Text.Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32) */, L_5, L_6, L_7, L_8);
+		L_9 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(22 /* System.Int32 System.Text.Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32) */, L_5, L_6, L_7, L_8);
 		// if (charCount > maxLength)
 		int32_t L_10 = ___maxLength0;
 		if ((((int32_t)L_9) <= ((int32_t)L_10)))
@@ -17487,7 +17487,7 @@ IL_0037:
 		int32_t L_15 = V_0;
 		NullCheck(L_12);
 		String_t* L_16;
-		L_16 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_12, L_13, L_14, L_15);
+		L_16 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_12, L_13, L_14, L_15);
 		// _position += bytesCount;
 		int32_t L_17 = __this->get__position_1();
 		int32_t L_18 = V_0;
@@ -17534,7 +17534,7 @@ IL_0011:
 		int32_t L_6 = V_0;
 		NullCheck(L_3);
 		String_t* L_7;
-		L_7 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_3, L_4, L_5, L_6);
+		L_7 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_3, L_4, L_5, L_6);
 		// _position += bytesCount;
 		int32_t L_8 = __this->get__position_1();
 		int32_t L_9 = V_0;
@@ -17970,7 +17970,7 @@ IL_0022:
 		int32_t L_10 = V_0;
 		NullCheck(L_7);
 		int32_t L_11;
-		L_11 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(21 /* System.Int32 System.Text.Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, ((int32_t)il2cpp_codegen_add((int32_t)L_9, (int32_t)4)), L_10);
+		L_11 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(22 /* System.Int32 System.Text.Encoding::GetCharCount(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, ((int32_t)il2cpp_codegen_add((int32_t)L_9, (int32_t)4)), L_10);
 		// if (charCount > maxLength)
 		int32_t L_12 = ___maxLength0;
 		if ((((int32_t)L_11) <= ((int32_t)L_12)))
@@ -17994,7 +17994,7 @@ IL_0044:
 		int32_t L_17 = V_0;
 		NullCheck(L_14);
 		String_t* L_18;
-		L_18 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, ((int32_t)il2cpp_codegen_add((int32_t)L_16, (int32_t)4)), L_17);
+		L_18 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, ((int32_t)il2cpp_codegen_add((int32_t)L_16, (int32_t)4)), L_17);
 		// return result;
 		return L_18;
 	}
@@ -18041,7 +18041,7 @@ IL_001c:
 		int32_t L_8 = V_0;
 		NullCheck(L_5);
 		String_t* L_9;
-		L_9 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(34 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_5, L_6, ((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)4)), L_8);
+		L_9 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t, int32_t >::Invoke(35 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_5, L_6, ((int32_t)il2cpp_codegen_add((int32_t)L_7, (int32_t)4)), L_8);
 		// return result;
 		return L_9;
 	}
@@ -19972,7 +19972,7 @@ IL_0034:
 		int32_t L_14 = __this->get__position_1();
 		NullCheck(L_9);
 		int32_t L_15;
-		L_15 = VirtFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t >::Invoke(18 /* System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32) */, L_9, L_10, 0, L_12, L_13, L_14);
+		L_15 = VirtFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t >::Invoke(19 /* System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32) */, L_9, L_10, 0, L_12, L_13, L_14);
 		// _position += bytesCount;
 		int32_t L_16 = __this->get__position_1();
 		int32_t L_17 = V_0;
@@ -20044,7 +20044,7 @@ IL_0022:
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
 		int32_t L_10;
-		L_10 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(31 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_8, L_9);
+		L_10 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(32 /* System.Int32 System.Text.Encoding::GetMaxByteCount(System.Int32) */, L_8, L_9);
 		V_1 = L_10;
 		// if (_autoResize)
 		bool L_11 = __this->get__autoResize_3();
@@ -20077,7 +20077,7 @@ IL_0047:
 		int32_t L_20 = __this->get__position_1();
 		NullCheck(L_16);
 		int32_t L_21;
-		L_21 = VirtFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t >::Invoke(18 /* System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32) */, L_16, L_17, 0, L_18, L_19, L_20);
+		L_21 = VirtFuncInvoker5< int32_t, String_t*, int32_t, int32_t, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726*, int32_t >::Invoke(19 /* System.Int32 System.Text.Encoding::GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32) */, L_16, L_17, 0, L_18, L_19, L_20);
 		V_3 = L_21;
 		// int positionAfterWrite = _position + requiredBytesCount; //position where string data ends
 		int32_t L_22 = __this->get__position_1();
