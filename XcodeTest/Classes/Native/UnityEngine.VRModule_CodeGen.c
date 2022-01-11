@@ -12,30 +12,34 @@
 
 
 
-// 0x00000001 System.Void UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking(UnityEngine.Camera,System.Boolean)
+// 0x00000001 System.Boolean UnityEngine.XR.XRSettings::get_enabled()
+extern void XRSettings_get_enabled_m970BB98BF899D943776BE6EB66FE40AA9C12A902 (void);
+// 0x00000002 System.Void UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking(UnityEngine.Camera,System.Boolean)
 extern void XRDevice_DisableAutoXRCameraTracking_mC203FE6788C85285EDD5822689A4B10EA720D268 (void);
-// 0x00000002 System.Void UnityEngine.XR.XRDevice::InvokeDeviceLoaded(System.String)
+// 0x00000003 System.Void UnityEngine.XR.XRDevice::InvokeDeviceLoaded(System.String)
 extern void XRDevice_InvokeDeviceLoaded_m3BDF6825A2A56E4923D4E6593C7BA2949B6A3581 (void);
-// 0x00000003 System.Void UnityEngine.XR.XRDevice::.cctor()
+// 0x00000004 System.Void UnityEngine.XR.XRDevice::.cctor()
 extern void XRDevice__cctor_mC83C1293819B81E68EC72D01A5CC107DFE29B98C (void);
-static Il2CppMethodPointer s_methodPointers[3] = 
+static Il2CppMethodPointer s_methodPointers[4] = 
 {
+	XRSettings_get_enabled_m970BB98BF899D943776BE6EB66FE40AA9C12A902,
 	XRDevice_DisableAutoXRCameraTracking_mC203FE6788C85285EDD5822689A4B10EA720D268,
 	XRDevice_InvokeDeviceLoaded_m3BDF6825A2A56E4923D4E6593C7BA2949B6A3581,
 	XRDevice__cctor_mC83C1293819B81E68EC72D01A5CC107DFE29B98C,
 };
-static const int32_t s_InvokerIndices[3] = 
+static const int32_t s_InvokerIndices[4] = 
 {
-	3166,
-	3426,
-	3522,
+	4568,
+	4177,
+	4467,
+	4574,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_VRModule_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_VRModule_CodeGenModule = 
 {
 	"UnityEngine.VRModule.dll",
-	3,
+	4,
 	s_methodPointers,
 	0,
 	NULL,

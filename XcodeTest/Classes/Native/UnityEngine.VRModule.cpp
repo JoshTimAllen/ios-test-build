@@ -154,6 +154,15 @@ public:
 };
 
 
+// UnityEngine.XR.XRSettings
+struct XRSettings_tD290B0A8EE92908DFAA8B103B157FEAF60AE0350  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+
 // System.Boolean
 struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
 {
@@ -631,6 +640,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice__cctor_mC83C1293819B81E68EC72D0
 		((XRDevice_t2C2B952750A66CA935A8A94FD6B022F629D0B9CA_StaticFields*)il2cpp_codegen_static_fields_for(XRDevice_t2C2B952750A66CA935A8A94FD6B022F629D0B9CA_il2cpp_TypeInfo_var))->set_deviceLoaded_0((Action_1_tC0D73E03177C82525D78670CDC2165F7CBF0A9C3 *)NULL);
 		return;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean UnityEngine.XR.XRSettings::get_enabled()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_enabled_m970BB98BF899D943776BE6EB66FE40AA9C12A902 (const RuntimeMethod* method)
+{
+	typedef bool (*XRSettings_get_enabled_m970BB98BF899D943776BE6EB66FE40AA9C12A902_ftn) ();
+	static XRSettings_get_enabled_m970BB98BF899D943776BE6EB66FE40AA9C12A902_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRSettings_get_enabled_m970BB98BF899D943776BE6EB66FE40AA9C12A902_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_enabled()");
+	bool icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

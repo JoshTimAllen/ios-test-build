@@ -78,8 +78,8 @@ struct IteratorStateMachineAttribute_t6C72F3EC15FB34D08D47727AA7A86AB7FEA27830;
 struct MemberFilter_t48D0AA10105D186AF42428FA532D4B4332CF8B81;
 // UnityEngine.MinAttribute
 struct MinAttribute_tD3485D689354D47D8686DC2891D5888FA94920A2;
-// AOT.MonoPInvokeCallbackAttribute
-struct MonoPInvokeCallbackAttribute_t99C8CC5CE6CC69C51F99A6CE88F4F792D4777B2E;
+// MonoPInvokeCallbackAttribute
+struct MonoPInvokeCallbackAttribute_t989EB291D663971CB4B8ADB4EC9A1F217EA26EC0;
 // System.ObsoleteAttribute
 struct ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671;
 // System.ParamArrayAttribute
@@ -833,8 +833,8 @@ public:
 };
 
 
-// AOT.MonoPInvokeCallbackAttribute
-struct MonoPInvokeCallbackAttribute_t99C8CC5CE6CC69C51F99A6CE88F4F792D4777B2E  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
+// MonoPInvokeCallbackAttribute
+struct MonoPInvokeCallbackAttribute_t989EB291D663971CB4B8ADB4EC9A1F217EA26EC0  : public Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71
 {
 public:
 
@@ -1908,8 +1908,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlAttribute_set_of
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlLayoutAttribute_set_variants_m830532FEB20C3E78321628255A2C69F1F192E57F_inline (InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute::set_hideInUI(System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlLayoutAttribute_set_hideInUI_m1A43A465C1CA664FD680E03CD8CDF9070EE42F30_inline (InputControlLayoutAttribute_t4CF6B4F7FE0FDFAEB4170492F3BFFE340D6DF420 * __this, bool ___value0, const RuntimeMethod* method);
-// System.Void AOT.MonoPInvokeCallbackAttribute::.ctor(System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoPInvokeCallbackAttribute__ctor_mA23FC56D16F76D90C3F76B1C41D0765BB21FE344 (MonoPInvokeCallbackAttribute_t99C8CC5CE6CC69C51F99A6CE88F4F792D4777B2E * __this, Type_t * ___type0, const RuntimeMethod* method);
+// System.Void MonoPInvokeCallbackAttribute::.ctor(System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoPInvokeCallbackAttribute__ctor_m85AA3F9A02F0816EF9744510EEF0FCA2B5B7FA36 (MonoPInvokeCallbackAttribute_t989EB291D663971CB4B8ADB4EC9A1F217EA26EC0 * __this, Type_t * ___type0, const RuntimeMethod* method);
 // System.Void UnityEngine.Scripting.PreserveAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2 (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute::set_canRunInBackground(System.Boolean)
@@ -11136,8 +11136,8 @@ static void iOSStepCounter_t5DEE536AFC075AA7369D0FA345723E467F5160D7_CustomAttri
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		MonoPInvokeCallbackAttribute_t99C8CC5CE6CC69C51F99A6CE88F4F792D4777B2E * tmp = (MonoPInvokeCallbackAttribute_t99C8CC5CE6CC69C51F99A6CE88F4F792D4777B2E *)cache->attributes[0];
-		MonoPInvokeCallbackAttribute__ctor_mA23FC56D16F76D90C3F76B1C41D0765BB21FE344(tmp, il2cpp_codegen_type_get_object(OnDataReceivedDelegate_t99B351A41F319AA0092E474FC16C3B1611880D05_0_0_0_var), NULL);
+		MonoPInvokeCallbackAttribute_t989EB291D663971CB4B8ADB4EC9A1F217EA26EC0 * tmp = (MonoPInvokeCallbackAttribute_t989EB291D663971CB4B8ADB4EC9A1F217EA26EC0 *)cache->attributes[0];
+		MonoPInvokeCallbackAttribute__ctor_m85AA3F9A02F0816EF9744510EEF0FCA2B5B7FA36(tmp, il2cpp_codegen_type_get_object(OnDataReceivedDelegate_t99B351A41F319AA0092E474FC16C3B1611880D05_0_0_0_var), NULL);
 	}
 }
 static void PoseState_t3C2C064C5256F3AE44B4EA160B0716429F83D6B8_CustomAttributesCacheGenerator_isTracked(CustomAttributesCache* cache)

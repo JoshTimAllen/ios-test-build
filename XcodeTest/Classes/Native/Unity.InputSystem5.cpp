@@ -33072,7 +33072,7 @@ IL_001c:
 			InputDevice_t32674BAC770EE0590FA5023A70AE7D3B3AA9A154 * L_4 = V_4;
 			NullCheck(L_3);
 			bool L_5;
-			L_5 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(105 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_3, L_4);
+			L_5 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(107 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_3, L_4);
 			if (!L_5)
 			{
 				goto IL_0046;

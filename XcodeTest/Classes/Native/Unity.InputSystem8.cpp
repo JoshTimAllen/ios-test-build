@@ -29345,7 +29345,7 @@ IL_001f:
 		InputDevice_t32674BAC770EE0590FA5023A70AE7D3B3AA9A154 * L_6 = V_0;
 		NullCheck(L_5);
 		bool L_7;
-		L_7 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(105 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
+		L_7 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(107 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_5, L_6);
 		if (L_7)
 		{
 			goto IL_002e;
@@ -39674,7 +39674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RebindingOperation_t0B54DBFBDC8C4029D994D69CC
 		Type_t * L_4 = ___type0;
 		NullCheck(L_3);
 		bool L_5;
-		L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(106 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_3, L_4);
+		L_5 = VirtFuncInvoker1< bool, Type_t * >::Invoke(108 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_3, L_4);
 		if (L_5)
 		{
 			goto IL_0041;
@@ -41236,7 +41236,7 @@ IL_00f8:
 			InputControl_tEC322F9612E643CD72B7759D8542E56DE84F9713 * L_40 = V_6;
 			NullCheck(L_39);
 			bool L_41;
-			L_41 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(105 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_39, L_40);
+			L_41 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(107 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_39, L_40);
 			if (!L_41)
 			{
 				goto IL_02c9;

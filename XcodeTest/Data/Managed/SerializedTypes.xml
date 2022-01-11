@@ -1,6 +1,5 @@
 <linker>
-	<assembly fullname="Unity.InputSystem">
-		<type fullname="UnityEngine.InputSystem.InputSettings/iOSSettings" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.InputSystem.iOS.PrivacyDataUsage" preserve="nothing" serialized="true"/>
+	<assembly fullname="Admix.Core">
+		<type fullname="Admix.AdmixCore.Preferences.StorageAppData" preserve="nothing" serialized="true"/>
 	</assembly>
 </linker>
