@@ -32,6 +32,8 @@ struct ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE;
 struct Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6;
 // GoogleMobileAds.Common.AdErrorClientEventArgs
 struct AdErrorClientEventArgs_t96D4BC2B1722C766F2BCD760A0E0031F9115A94A;
+// GoogleMobileAds.Common.AdInspectorErrorClientEventArgs
+struct AdInspectorErrorClientEventArgs_tCD7DBE1DFA7985E3D79870B76EDF963497C0A2BC;
 // System.AsyncCallback
 struct AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA;
 // UnityEngine.Component
@@ -46,6 +48,8 @@ struct EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA;
 struct GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319;
 // GoogleMobileAds.Common.IAdErrorClient
 struct IAdErrorClient_tFF8053C8E710D3CB81C87F09DDAAEC82B6A46E87;
+// GoogleMobileAds.Common.IAdInspectorErrorClient
+struct IAdInspectorErrorClient_t8B6F54F88BC7C426A2E44C94021F1384D61358F7;
 // System.IAsyncResult
 struct IAsyncResult_tC9F97BF36FCF122D29D3101D80642278297BF370;
 // GoogleMobileAds.Common.ILoadAdErrorClient
@@ -443,6 +447,25 @@ public:
 
 public:
 	inline static int32_t get_offset_of_U3CAdErrorClientU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(AdErrorClientEventArgs_t96D4BC2B1722C766F2BCD760A0E0031F9115A94A, ___U3CAdErrorClientU3Ek__BackingField_1)); }
+	inline RuntimeObject* get_U3CAdErrorClientU3Ek__BackingField_1() const { return ___U3CAdErrorClientU3Ek__BackingField_1; }
+	inline RuntimeObject** get_address_of_U3CAdErrorClientU3Ek__BackingField_1() { return &___U3CAdErrorClientU3Ek__BackingField_1; }
+	inline void set_U3CAdErrorClientU3Ek__BackingField_1(RuntimeObject* value)
+	{
+		___U3CAdErrorClientU3Ek__BackingField_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CAdErrorClientU3Ek__BackingField_1), (void*)value);
+	}
+};
+
+
+// GoogleMobileAds.Common.AdInspectorErrorClientEventArgs
+struct AdInspectorErrorClientEventArgs_tCD7DBE1DFA7985E3D79870B76EDF963497C0A2BC  : public EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA
+{
+public:
+	// GoogleMobileAds.Common.IAdInspectorErrorClient GoogleMobileAds.Common.AdInspectorErrorClientEventArgs::<AdErrorClient>k__BackingField
+	RuntimeObject* ___U3CAdErrorClientU3Ek__BackingField_1;
+
+public:
+	inline static int32_t get_offset_of_U3CAdErrorClientU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(AdInspectorErrorClientEventArgs_tCD7DBE1DFA7985E3D79870B76EDF963497C0A2BC, ___U3CAdErrorClientU3Ek__BackingField_1)); }
 	inline RuntimeObject* get_U3CAdErrorClientU3Ek__BackingField_1() const { return ___U3CAdErrorClientU3Ek__BackingField_1; }
 	inline RuntimeObject** get_address_of_U3CAdErrorClientU3Ek__BackingField_1() { return &___U3CAdErrorClientU3Ek__BackingField_1; }
 	inline void set_U3CAdErrorClientU3Ek__BackingField_1(RuntimeObject* value)
@@ -1104,8 +1127,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdErrorClientEventArgs__ctor_m71AE83FBDE
 		return;
 	}
 }
+// GoogleMobileAds.Common.IAdErrorClient GoogleMobileAds.Common.AdErrorClientEventArgs::get_AdErrorClient()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AdErrorClientEventArgs_get_AdErrorClient_m48C3F60D7619535F66988FE7DE2F2CDE356B9D6D (AdErrorClientEventArgs_t96D4BC2B1722C766F2BCD760A0E0031F9115A94A * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = __this->get_U3CAdErrorClientU3Ek__BackingField_1();
+		return L_0;
+	}
+}
 // System.Void GoogleMobileAds.Common.AdErrorClientEventArgs::set_AdErrorClient(GoogleMobileAds.Common.IAdErrorClient)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdErrorClientEventArgs_set_AdErrorClient_m4A44FFB57C597A935C016E07EFE13D7D92DE94BF (AdErrorClientEventArgs_t96D4BC2B1722C766F2BCD760A0E0031F9115A94A * __this, RuntimeObject* ___value0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = ___value0;
+		__this->set_U3CAdErrorClientU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GoogleMobileAds.Common.AdInspectorErrorClientEventArgs::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdInspectorErrorClientEventArgs__ctor_mEB3781753BBB0B231BB887DB4718E7D3491A0631 (AdInspectorErrorClientEventArgs_tCD7DBE1DFA7985E3D79870B76EDF963497C0A2BC * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA_il2cpp_TypeInfo_var);
+		EventArgs__ctor_m5ECB9A8ED0A9E2DBB1ED999BAC1CB44F4354E571(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GoogleMobileAds.Common.AdInspectorErrorClientEventArgs::set_AdErrorClient(GoogleMobileAds.Common.IAdInspectorErrorClient)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdInspectorErrorClientEventArgs_set_AdErrorClient_mAA6C087E2EFFD0E9455457477E25A4745CC2458F (AdInspectorErrorClientEventArgs_tCD7DBE1DFA7985E3D79870B76EDF963497C0A2BC * __this, RuntimeObject* ___value0, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject* L_0 = ___value0;
@@ -1134,6 +1197,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadAdErrorClientEventArgs__ctor_m24BF32
 		IL2CPP_RUNTIME_CLASS_INIT(EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA_il2cpp_TypeInfo_var);
 		EventArgs__ctor_m5ECB9A8ED0A9E2DBB1ED999BAC1CB44F4354E571(__this, /*hidden argument*/NULL);
 		return;
+	}
+}
+// GoogleMobileAds.Common.ILoadAdErrorClient GoogleMobileAds.Common.LoadAdErrorClientEventArgs::get_LoadAdErrorClient()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LoadAdErrorClientEventArgs_get_LoadAdErrorClient_mEA57DFDB64AA9DFD60B1F636DC5939CC11BF36CA (LoadAdErrorClientEventArgs_t81D5182F2126CC5D6D4EE54729485DBE5BDE39EA * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = __this->get_U3CLoadAdErrorClientU3Ek__BackingField_1();
+		return L_0;
 	}
 }
 // System.Void GoogleMobileAds.Common.LoadAdErrorClientEventArgs::set_LoadAdErrorClient(GoogleMobileAds.Common.ILoadAdErrorClient)
