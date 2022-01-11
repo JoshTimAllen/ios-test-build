@@ -6,9 +6,4 @@
 	<assembly fullname="Admix.Core">
 		<type fullname="Admix.AdmixCore.Preferences.StorageAppData" preserve="nothing" serialized="true"/>
 	</assembly>
-	<assembly fullname="Assembly-CSharp">
-		<type fullname="_Event" preserve="nothing" serialized="true"/>
-		<type fullname="Gender" preserve="nothing" serialized="true"/>
-		<type fullname="Discipline" preserve="nothing" serialized="true"/>
-	</assembly>
 </linker>

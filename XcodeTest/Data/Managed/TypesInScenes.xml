@@ -38,9 +38,6 @@
 		<type fullname="UnityEngine.Cubemap" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 	</assembly>
-	<assembly fullname="Assembly-CSharp">
-		<type fullname="Tournaments.TournamentPresetData" preserve="nothing"/>
-	</assembly>
 	<assembly fullname="Unity.InputSystem">
 		<type fullname="UnityEngine.InputSystem.InputSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.InputSystem.InputSystemObject" preserve="nothing"/>

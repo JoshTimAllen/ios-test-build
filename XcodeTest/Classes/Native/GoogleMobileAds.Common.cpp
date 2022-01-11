@@ -1127,14 +1127,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdErrorClientEventArgs__ctor_m71AE83FBDE
 		return;
 	}
 }
-// GoogleMobileAds.Common.IAdErrorClient GoogleMobileAds.Common.AdErrorClientEventArgs::get_AdErrorClient()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AdErrorClientEventArgs_get_AdErrorClient_m48C3F60D7619535F66988FE7DE2F2CDE356B9D6D (AdErrorClientEventArgs_t96D4BC2B1722C766F2BCD760A0E0031F9115A94A * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = __this->get_U3CAdErrorClientU3Ek__BackingField_1();
-		return L_0;
-	}
-}
 // System.Void GoogleMobileAds.Common.AdErrorClientEventArgs::set_AdErrorClient(GoogleMobileAds.Common.IAdErrorClient)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdErrorClientEventArgs_set_AdErrorClient_m4A44FFB57C597A935C016E07EFE13D7D92DE94BF (AdErrorClientEventArgs_t96D4BC2B1722C766F2BCD760A0E0031F9115A94A * __this, RuntimeObject* ___value0, const RuntimeMethod* method)
 {
@@ -1197,14 +1189,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadAdErrorClientEventArgs__ctor_m24BF32
 		IL2CPP_RUNTIME_CLASS_INIT(EventArgs_tBCAACA538A5195B6D6C8DFCC3524A2A4A67FD8BA_il2cpp_TypeInfo_var);
 		EventArgs__ctor_m5ECB9A8ED0A9E2DBB1ED999BAC1CB44F4354E571(__this, /*hidden argument*/NULL);
 		return;
-	}
-}
-// GoogleMobileAds.Common.ILoadAdErrorClient GoogleMobileAds.Common.LoadAdErrorClientEventArgs::get_LoadAdErrorClient()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LoadAdErrorClientEventArgs_get_LoadAdErrorClient_mEA57DFDB64AA9DFD60B1F636DC5939CC11BF36CA (LoadAdErrorClientEventArgs_t81D5182F2126CC5D6D4EE54729485DBE5BDE39EA * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = __this->get_U3CLoadAdErrorClientU3Ek__BackingField_1();
-		return L_0;
 	}
 }
 // System.Void GoogleMobileAds.Common.LoadAdErrorClientEventArgs::set_LoadAdErrorClient(GoogleMobileAds.Common.ILoadAdErrorClient)

@@ -3726,15 +3726,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_constraints_mA76F562D16D3B
 	_il2cpp_icall_func = (Rigidbody_set_constraints_mA76F562D16D3BE8889E095D0309C8FE38DA914F1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::set_constraints(UnityEngine.RigidbodyConstraints)");
 	_il2cpp_icall_func(__this, ___value0);
 }
-// System.Void UnityEngine.Rigidbody::set_sleepThreshold(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_sleepThreshold_mA71700BF6225A4366FE6BE1365E26B0BF832C00B (Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A * __this, float ___value0, const RuntimeMethod* method)
-{
-	typedef void (*Rigidbody_set_sleepThreshold_mA71700BF6225A4366FE6BE1365E26B0BF832C00B_ftn) (Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A *, float);
-	static Rigidbody_set_sleepThreshold_mA71700BF6225A4366FE6BE1365E26B0BF832C00B_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Rigidbody_set_sleepThreshold_mA71700BF6225A4366FE6BE1365E26B0BF832C00B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::set_sleepThreshold(System.Single)");
-	_il2cpp_icall_func(__this, ___value0);
-}
 // System.Void UnityEngine.Rigidbody::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody__ctor_m0E43BA3B0E70E71B2CA62B165EE5B7CFAEFACDE9 (Rigidbody_t101F2E2F9F16E765A77429B2DE4527D2047A887A * __this, const RuntimeMethod* method)
 {

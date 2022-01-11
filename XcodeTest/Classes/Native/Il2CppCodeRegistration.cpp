@@ -20,7 +20,6 @@ IL2CPP_EXTERN_C const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
 IL2CPP_EXTERN_C Il2CppInteropData g_Il2CppInteropData[];
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Admix_Core_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
-IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_Common_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_Core_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_iOS_CodeGenModule;
@@ -78,11 +77,10 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_RemoteConfig_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshPro_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[59] = 
+const Il2CppCodeGenModule* g_CodeGenModules[58] = 
 {
 	(&g_Admix_Core_CodeGenModule),
 	(&g_AssemblyU2DCSharp_CodeGenModule),
-	(&g_GoogleMobileAds_CodeGenModule),
 	(&g_GoogleMobileAds_Common_CodeGenModule),
 	(&g_GoogleMobileAds_Core_CodeGenModule),
 	(&g_GoogleMobileAds_iOS_CodeGenModule),
@@ -145,18 +143,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	55,
 	g_ReversePInvokeWrapperPointers,
-	27404,
+	26406,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	6508,
+	6374,
 	g_Il2CppInvokerPointers,
-	1035,
+	976,
 	g_UnresolvedVirtualMethodPointers,
-	624,
+	617,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	59,
+	58,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
