@@ -31328,7 +31328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TypeConverterAttribute__ctor_mE0B270E39E
 		Type_t * L_0 = ___type0;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_0);
+		L_1 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_0);
 		__this->set_typeName_0(L_1);
 		return;
 	}
@@ -43300,7 +43300,7 @@ IL_0216:
 		L_76 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_75, /*hidden argument*/NULL);
 		NullCheck(L_76);
 		String_t* L_77;
-		L_77 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_76);
+		L_77 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_76);
 		NullCheck(L_74);
 		ArrayElementTypeCheck (L_74, L_77);
 		(L_74)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_77);
