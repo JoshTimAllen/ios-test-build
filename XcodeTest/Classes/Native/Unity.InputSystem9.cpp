@@ -27320,7 +27320,7 @@ IL_004b:
 		Type_t * L_10 = V_1;
 		NullCheck(L_10);
 		FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E* L_11;
-		L_11 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(46 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_10, ((int32_t)20));
+		L_11 = VirtFuncInvoker1< FieldInfoU5BU5D_tD84513FCA07C63AAFE671A5B39E3ADD6E903938E*, int32_t >::Invoke(43 /* System.Reflection.FieldInfo[] System.Type::GetFields(System.Reflection.BindingFlags) */, L_10, ((int32_t)20));
 		__this->set_U3CU3E7__wrap1_5(L_11);
 		__this->set_U3CU3E7__wrap2_6(0);
 		goto IL_00a2;
@@ -27350,7 +27350,7 @@ IL_0062:
 		FieldInfo_t * L_18 = V_2;
 		NullCheck(L_18);
 		String_t* L_19;
-		L_19 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_18);
+		L_19 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_18);
 		__this->set_U3CU3E2__current_1(L_19);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
@@ -32498,7 +32498,7 @@ IL_0030:
 		Type_t * L_11 = V_1;
 		NullCheck(L_10);
 		bool L_12;
-		L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
+		L_12 = VirtFuncInvoker1< bool, Type_t * >::Invoke(106 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_10, L_11);
 		return L_12;
 	}
 }
@@ -35486,7 +35486,7 @@ IL_006f:
 		Type_t * L_19 = V_0;
 		NullCheck(L_18);
 		bool L_20;
-		L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(113 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
+		L_20 = VirtFuncInvoker1< bool, Type_t * >::Invoke(106 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_18, L_19);
 		if (L_20)
 		{
 			goto IL_00d4;
@@ -36069,7 +36069,7 @@ IL_0029:
 	{
 		NullCheck(G_B2_0);
 		String_t* L_6;
-		L_6 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, G_B2_0);
+		L_6 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_AssemblyQualifiedName() */, G_B2_0);
 		G_B3_0 = L_6;
 		G_B3_1 = G_B2_1;
 	}
@@ -51998,7 +51998,7 @@ CATCH_002f:
 		L_12 = Exception_GetType_mC5B8B5C944B326B751282AB0E8C25A7F85457D9F(L_11, /*hidden argument*/NULL);
 		NullCheck(L_12);
 		String_t* L_13;
-		L_13 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
+		L_13 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
 		int32_t L_14 = ___updateType0;
 		int32_t L_15 = L_14;
 		RuntimeObject * L_16 = Box(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NativeInputUpdateType_t4225BE835D53F0F56168B34BEF726468058A5C94_il2cpp_TypeInfo_var)), &L_15);

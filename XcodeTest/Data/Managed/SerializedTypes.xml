@@ -3,32 +3,4 @@
 		<type fullname="UnityEngine.InputSystem.InputSettings/iOSSettings" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.InputSystem.iOS.PrivacyDataUsage" preserve="nothing" serialized="true"/>
 	</assembly>
-	<assembly fullname="Assembly-CSharp">
-		<type fullname="GearData" preserve="nothing" serialized="true"/>
-		<type fullname="GearData/GearDataMetaData" preserve="nothing" serialized="true"/>
-		<type fullname="_Event" preserve="nothing" serialized="true"/>
-		<type fullname="Gender" preserve="nothing" serialized="true"/>
-		<type fullname="Discipline" preserve="nothing" serialized="true"/>
-	</assembly>
-	<assembly fullname="UnityEngine.TextCoreModule">
-		<type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true"/>
-		<type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true"/>
-	</assembly>
-	<assembly fullname="Unity.TextMeshPro">
-		<type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.KerningTable" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true"/>
-		<type fullname="TMPro.TMP_Style" preserve="nothing" serialized="true"/>
-	</assembly>
 </linker>
