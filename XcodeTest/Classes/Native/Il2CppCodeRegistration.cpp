@@ -25,6 +25,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_Core_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_GoogleMobileAds_iOS_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_LiteNetLib_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_Security_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PathCreator_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Core_CodeGenModule;
@@ -69,7 +70,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_XRModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_InputSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[50] = 
+const Il2CppCodeGenModule* g_CodeGenModules[51] = 
 {
 	(&g_Admix_Core_CodeGenModule),
 	(&g_AssemblyU2DCSharp_CodeGenModule),
@@ -78,6 +79,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[50] =
 	(&g_GoogleMobileAds_iOS_CodeGenModule),
 	(&g_LiteNetLib_CodeGenModule),
 	(&g_Mono_Security_CodeGenModule),
+	(&g_PathCreator_CodeGenModule),
 	(&g_System_CodeGenModule),
 	(&g_System_Configuration_CodeGenModule),
 	(&g_System_Core_CodeGenModule),
@@ -127,18 +129,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	55,
 	g_ReversePInvokeWrapperPointers,
-	19563,
+	19855,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	4923,
+	4966,
 	g_Il2CppInvokerPointers,
-	824,
+	834,
 	g_UnresolvedVirtualMethodPointers,
 	536,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	50,
+	51,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
